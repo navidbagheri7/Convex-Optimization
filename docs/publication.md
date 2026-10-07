@@ -7,3 +7,7 @@ The local main branch, local v1.1.0 tag, source distribution / wheel and release
 The numerical reference tables and figures are finite measured experiments. Do not present weak routing variants as optimal, validation-selected models as globally converged, the historical rating benchmark as an online recommender, or the supplied shorting-allowed program as investment advice. CI is configured for public-evidence validation and notebook execution, but a hosted GitHub Actions run is not claimed until the owner publishes and observes it.
 
 Suggested repository name: `numerical-optimization-lab`. Suggested description: “Reproducible convex certificates, first-order methods, MovieLens optimization and TSP algorithm comparisons.” Choose the final URL before adding it to CITATION.cff or release metadata; no placeholder account is invented.
+
+Preserve the root `.nojekyll` file when publishing this static explorer.
+It bypasses Jekyll so the supplied HTML, JavaScript and evidence links are served
+with their original paths. [GitHub documents this option](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
