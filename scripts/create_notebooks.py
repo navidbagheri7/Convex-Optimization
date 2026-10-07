@@ -263,7 +263,7 @@ STUDIES = [
             ("Integer bound histories", 'figure("routing_lower_bounds")'),
             (
                 "Complete protocol counts",
-                "from optimization_lab.reporting import records\nprotocols,counts=records()\nassert sum(counts.values())==31\nprint(counts)",
+                "from optimization_lab.reporting import records\nprotocols,counts=records()\nassert sum(counts.values())==55\nprint(counts)",
             ),
         ],
     ),

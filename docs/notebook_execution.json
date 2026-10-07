@@ -70,6 +70,21 @@
       "notebook": "notebooks/14_certificates.ipynb",
       "executed_code_cells": 5,
       "all_executed": true
+    },
+    {
+      "notebook": "notebooks/15_primal_dual.ipynb",
+      "executed_code_cells": 5,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/16_adaptive_search.ipynb",
+      "executed_code_cells": 5,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/17_geometry_and_certificates.ipynb",
+      "executed_code_cells": 5,
+      "all_executed": true
     }
   ]
 }

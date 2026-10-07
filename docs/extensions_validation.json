@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "primal_dual": {
+    "protocols": 18,
+    "solver_results": 72,
+    "all_certificates_feasible": true,
+    "independent_small_cone_oracles": true
+  },
+  "adaptive_search": {
+    "protocols": 6,
+    "candidate_fits": 96,
+    "shared_startup_proposals": true,
+    "selection_recomputed": true,
+    "test_metrics_recomputed": true
+  }
+}

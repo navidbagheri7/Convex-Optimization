@@ -12,9 +12,17 @@ def main():
     parser = argparse.ArgumentParser(
         description="Numerical optimization, certificates and comparisons"
     )
-    parser.add_argument("--version", action="version", version="certified-optimization-lab 1.0.0")
+    parser.add_argument("--version", action="version", version="certified-optimization-lab 1.1.0")
     commands = parser.add_subparsers(dest="command", required=True)
-    for name in ["convex", "first-order", "spectral", "recommendation", "routing"]:
+    for name in [
+        "convex",
+        "first-order",
+        "spectral",
+        "recommendation",
+        "routing",
+        "primal-dual",
+        "adaptive-search",
+    ]:
         command = commands.add_parser(name)
         command.add_argument("--config", type=Path)
         command.add_argument("--output", type=Path)
@@ -24,6 +32,11 @@ def main():
         if name == "recommendation":
             command.add_argument("--data-root", required=True)
             command.add_argument("--seed", type=int, default=0)
+            command.add_argument("--device", default="cpu")
+        if name == "adaptive-search":
+            command.add_argument("--data-root")
+            command.add_argument("--seed", type=int, choices=[0, 1, 2], default=0)
+            command.add_argument("--strategy", choices=["random", "tpe"], required=True)
             command.add_argument("--device", default="cpu")
         if name == "routing":
             command.add_argument("--instance-root", required=True)
@@ -80,6 +93,22 @@ def main():
                 epochs=2, rank=8, lambdas=[0.1], learning_rates=dict(sgd=[1.0], adam=[0.003])
             )
         return fit(config, args.data_root, args.seed, args.device, args.quick, output)
+    if args.command == "primal-dual":
+        from .primal_dual_study import study
+
+        if args.quick:
+            config |= dict(
+                seeds=[0], datasets=["piecewise"], size=16, oracle_size=8, lambdas=[0.06], steps=800
+            )
+        return study(config, output, args.quick)
+    if args.command == "adaptive-search":
+        from .adaptive_search import fit
+
+        if args.data_root:
+            config["data_root"] = args.data_root
+        if args.quick:
+            config |= dict(trials=2, startup_trials=1, epochs=2, rank_choices=[8])
+        return fit(config, args.seed, args.strategy, args.device, output, args.quick)
     if args.command == "routing":
         from .routing_study import run
 

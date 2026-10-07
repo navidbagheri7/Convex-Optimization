@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "config": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "datasets": [
+      "piecewise",
+      "photograph"
+    ],
+    "size": 96,
+    "oracle_size": 16,
+    "noise_standard_deviation": 0.1,
+    "lambdas": [
+      0.02,
+      0.06,
+      0.15
+    ],
+    "methods": [
+      "pdhg",
+      "accelerated_pdhg",
+      "dual_fista",
+      "admm"
+    ],
+    "steps": 8000,
+    "record_every": 20,
+    "gap_per_pixel": 1e-06,
+    "boundary": "periodic forward differences on both axes",
+    "scope": "Fixed penalty comparisons; no best-of-test tuning. Float observations and reconstructions are unclipped for objectives and PSNR; display alone is clipped. Small conic oracles solve separate periodic crops, not the large image.",
+    "dataset": "photograph",
+    "seed": 1,
+    "penalty": 0.06,
+    "quick": false,
+    "photo_sha256": "897f86c02f7e8c074e8aef8b0729652b43c8251d8142041a6b33b6c1e0cde7b9"
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "cvxpy": "1.7.5",
+    "clarabel": "0.11.1",
+    "torch": "2.7.1+cu128",
+    "ortools": "9.14.6206"
+  },
+  "source_sha256": {
+    "primal_dual_study.py": "91efce1f4cd1229bfe599e4bbe5f9dbe2a55ae5f668f1db4d36b295318cdc121",
+    "primal_dual.py": "918a242ed8ebe713dc754666cd9771e5979acfd7a49bc27cb22e4be7bc9cbf96",
+    "convex_cases.py": "41166f59843590bd0b49ee47473a670e463c675d22a468ae7fe01377589015c0"
+  },
+  "elapsed_seconds": 0.7844617869704962
+}

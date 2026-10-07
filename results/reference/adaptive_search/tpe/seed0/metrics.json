@@ -1,0 +1,281 @@
+{
+  "trials": [
+    {
+      "number": 0,
+      "parameters": {
+        "rank": 32,
+        "penalty": 0.060340969781610354,
+        "bias_penalty": 0.00024084514647204118,
+        "learning_rate": 0.002186150941587685
+      },
+      "validation_rmse": 0.9285420324316306,
+      "checkpoint_sha256": "e213fe8bb433a0618cbdfad59e55a722feb37a96c0f57115e2d066f274bd0317",
+      "curve_sha256": "683ba20dad6d3b4ad9a149b9e738ce749dbc05de864a1b4ed70efd534076b0eb",
+      "elapsed_seconds": 6.413727993145585,
+      "generator_updates": 1280,
+      "selected_epoch": 15
+    },
+    {
+      "number": 1,
+      "parameters": {
+        "rank": 32,
+        "penalty": 0.13097548750480215,
+        "bias_penalty": 0.02240575912995624,
+        "learning_rate": 0.006777682575649504
+      },
+      "validation_rmse": 0.9143804659954099,
+      "checkpoint_sha256": "0ae631bbf13d05683400f6b9f313981546eebe0efe368046dffe3afa0a1c592e",
+      "curve_sha256": "31cca430cf4fdea1b1f26602424d84d03f60be08059fafb737e2c81f2992e7f2",
+      "elapsed_seconds": 4.555337334983051,
+      "generator_updates": 1280,
+      "selected_epoch": 17
+    },
+    {
+      "number": 2,
+      "parameters": {
+        "rank": 32,
+        "penalty": 0.012403738376721662,
+        "bias_penalty": 0.017724385940416677,
+        "learning_rate": 0.0007720861995950765
+      },
+      "validation_rmse": 0.9435960767950821,
+      "checkpoint_sha256": "78cb2a287472f55106d7a22a1d4a6761202fb27315e16a6b1f9dd2c658dde1ef",
+      "curve_sha256": "b51dea627153aae909e6b2fd0e391e32cd5375f50990630f6323134cded57835",
+      "elapsed_seconds": 4.83448720164597,
+      "generator_updates": 1280,
+      "selected_epoch": 31
+    },
+    {
+      "number": 3,
+      "parameters": {
+        "rank": 16,
+        "penalty": 0.006293353495977164,
+        "bias_penalty": 0.00017477611551193467,
+        "learning_rate": 0.001454753506011221
+      },
+      "validation_rmse": 0.954430489785805,
+      "checkpoint_sha256": "124289b585d85eba7f7210dabe4f16f540f45789b5760905ce1567fc0e976886",
+      "curve_sha256": "45b744e494bc3b8004ed79ed9c241336fbd261f0a46a64ad4d849163ec1b68b7",
+      "elapsed_seconds": 3.2403712114319205,
+      "generator_updates": 1280,
+      "selected_epoch": 18
+    },
+    {
+      "number": 4,
+      "parameters": {
+        "rank": 32,
+        "penalty": 0.016036099426321036,
+        "bias_penalty": 0.029901407356761046,
+        "learning_rate": 0.00038204637472755246
+      },
+      "validation_rmse": 0.9612329919782691,
+      "checkpoint_sha256": "a50b58fc934cc6d601a4a0a2be14f59df9979b927f00554eae5081fb603d851e",
+      "curve_sha256": "492d89e9e8bb6aa91d5c44463adf1b41733679abd936b67c607bd2b5b6a99da6",
+      "elapsed_seconds": 5.1616421258077025,
+      "generator_updates": 1280,
+      "selected_epoch": 40
+    },
+    {
+      "number": 5,
+      "parameters": {
+        "rank": 8,
+        "penalty": 0.01721693842347244,
+        "bias_penalty": 0.02302377523858891,
+        "learning_rate": 0.0003863195186625131
+      },
+      "validation_rmse": 0.9811999121837722,
+      "checkpoint_sha256": "2aff29ad46d4ca95402fdb997b596964ae0b14a7bf2ae9534ceb3e2858df6275",
+      "curve_sha256": "fa868437cd544f4a60e91a916f828d4741e381792a49cdc0ec84b5a87d66f4d2",
+      "elapsed_seconds": 3.486521903425455,
+      "generator_updates": 1280,
+      "selected_epoch": 40
+    },
+    {
+      "number": 6,
+      "parameters": {
+        "rank": 16,
+        "penalty": 0.11049472894405703,
+        "bias_penalty": 0.00011158801300858442,
+        "learning_rate": 0.000575462183780172
+      },
+      "validation_rmse": 0.9492330729689631,
+      "checkpoint_sha256": "a29b2ef5db7da456ed6a8863b366d3fce618969df22509ff40847444433caf94",
+      "curve_sha256": "f8c9c4e5a59d2145a012a78859e59d81fe790aeec078bb4397e072ddfcc3e680",
+      "elapsed_seconds": 3.721073739230633,
+      "generator_updates": 1280,
+      "selected_epoch": 40
+    },
+    {
+      "number": 7,
+      "parameters": {
+        "rank": 16,
+        "penalty": 0.006804888967561708,
+        "bias_penalty": 0.010149341440486825,
+        "learning_rate": 0.0011539862589512652
+      },
+      "validation_rmse": 0.9538888256318375,
+      "checkpoint_sha256": "4a0313ac84f64f6d2a77acce199e47d5b0ac19f25159bf94cffd68aec5644328",
+      "curve_sha256": "292b8d17f86365d3f2b1d95bdd6a62e62d162bd412bb9910053ae9e4874dc741",
+      "elapsed_seconds": 3.73700107447803,
+      "generator_updates": 1280,
+      "selected_epoch": 24
+    },
+    {
+      "number": 8,
+      "parameters": {
+        "rank": 16,
+        "penalty": 0.14409887942564598,
+        "bias_penalty": 0.023329176538119837,
+        "learning_rate": 0.006879365126787698
+      },
+      "validation_rmse": 0.9178951460733045,
+      "checkpoint_sha256": "699dfa29663519f871910dd195bdb1c94c5b5a1afd722b8b42353c06b1bbece2",
+      "curve_sha256": "475c66072ce4fa070f7aa66578c6fae2deee1ef9fd1cbf75f4e74f9acbf7a530",
+      "elapsed_seconds": 3.7425897223874927,
+      "generator_updates": 1280,
+      "selected_epoch": 17
+    },
+    {
+      "number": 9,
+      "parameters": {
+        "rank": 32,
+        "penalty": 0.003594152841635264,
+        "bias_penalty": 0.008703983059092826,
+        "learning_rate": 0.003229441619262016
+      },
+      "validation_rmse": 0.9491652619406401,
+      "checkpoint_sha256": "156272ce0f34fc909e50161318a968f346e7e1912348dc3ccd595f13f9d52449",
+      "curve_sha256": "7b90a200fad2ea93ea975755c1e935d2683e79c62d8d25bf9691b0218970b122",
+      "elapsed_seconds": 4.871552728116512,
+      "generator_updates": 1280,
+      "selected_epoch": 7
+    },
+    {
+      "number": 10,
+      "parameters": {
+        "rank": 32,
+        "penalty": 0.11198657598324788,
+        "bias_penalty": 0.0017281258233775379,
+        "learning_rate": 0.009682207791783155
+      },
+      "validation_rmse": 0.915086788233852,
+      "checkpoint_sha256": "00a2c222be72675da403f69d186e745295a49de84a6e5954c3e0d74d68a74fa8",
+      "curve_sha256": "f15d98493e8fa5dd30a71d4e20600821d2fdfba9ddc6f4eba3860a2487d72c99",
+      "elapsed_seconds": 4.863898184150457,
+      "generator_updates": 1280,
+      "selected_epoch": 8
+    },
+    {
+      "number": 11,
+      "parameters": {
+        "rank": 32,
+        "penalty": 0.07919774580635422,
+        "bias_penalty": 0.0026888920675486685,
+        "learning_rate": 0.0064379888242315575
+      },
+      "validation_rmse": 0.9227871822617827,
+      "checkpoint_sha256": "d63691f03ddd771e861b4e209b046eba23facba95aae623eac1d8571b2f44058",
+      "curve_sha256": "0148b08ffbcca2d4b85e7ac47e573604d1940c9f587a04fbfa0416d5a64f32ae",
+      "elapsed_seconds": 4.771577318198979,
+      "generator_updates": 1280,
+      "selected_epoch": 8
+    },
+    {
+      "number": 12,
+      "parameters": {
+        "rank": 16,
+        "penalty": 0.17021445940318236,
+        "bias_penalty": 0.002056602234100314,
+        "learning_rate": 0.006509271887013911
+      },
+      "validation_rmse": 0.9198302811839353,
+      "checkpoint_sha256": "7a9965de16b1f145d8ea35ee4de2acafea42e58637abb2318187c18fd498754a",
+      "curve_sha256": "0116d49f97c2e110ca6d5d8b36dd88ff00aa8c43c21e111820e45f42313f0fea",
+      "elapsed_seconds": 3.7753743305802345,
+      "generator_updates": 1280,
+      "selected_epoch": 24
+    },
+    {
+      "number": 13,
+      "parameters": {
+        "rank": 32,
+        "penalty": 0.026326737739266196,
+        "bias_penalty": 0.0016523183945441004,
+        "learning_rate": 0.0077417433202112435
+      },
+      "validation_rmse": 0.9387947251046271,
+      "checkpoint_sha256": "118dfd98599b31cd8e4df4015f9a9b6bb55bc28ae499d817e51df4ecdb462537",
+      "curve_sha256": "498475923bb1fc5e64e6b0f2687ee15208192351c82a5dc5cc7114ead55ed784",
+      "elapsed_seconds": 4.7588018933311105,
+      "generator_updates": 1280,
+      "selected_epoch": 4
+    },
+    {
+      "number": 14,
+      "parameters": {
+        "rank": 32,
+        "penalty": 0.19541901880145518,
+        "bias_penalty": 0.00020391407279998972,
+        "learning_rate": 0.007983975839409845
+      },
+      "validation_rmse": 0.9247724947191412,
+      "checkpoint_sha256": "1b124c7cf13a4b261ad2d9849a27749fea554c273a56860398ff50a007e4a2f8",
+      "curve_sha256": "1c8479d2521a9bad9889b18b75c6abde557b70c5d880024a22606e726cbb4b11",
+      "elapsed_seconds": 4.64048495516181,
+      "generator_updates": 1280,
+      "selected_epoch": 21
+    },
+    {
+      "number": 15,
+      "parameters": {
+        "rank": 32,
+        "penalty": 0.18457487089237284,
+        "bias_penalty": 0.013890418043489158,
+        "learning_rate": 0.004841479075496195
+      },
+      "validation_rmse": 0.9210981491369706,
+      "checkpoint_sha256": "dc50c86db6bf03632172c290b25d0bc7069c07b866e2309ade58d0c055f94581",
+      "curve_sha256": "d7af61aa900e7ef4d9c669b2fc7afe6701d26e26b2f74db2c39fa16a641658e3",
+      "elapsed_seconds": 4.809541597031057,
+      "generator_updates": 1280,
+      "selected_epoch": 34
+    }
+  ],
+  "selected_trial": 1,
+  "selected_parameters": {
+    "rank": 32,
+    "penalty": 0.13097548750480215,
+    "bias_penalty": 0.02240575912995624,
+    "learning_rate": 0.006777682575649504
+  },
+  "selected_epoch": 17,
+  "validation_rmse": 0.9143804659954099,
+  "test": {
+    "rmse": 0.9358051065751144,
+    "mae": 0.7387825556448594,
+    "unclipped_rmse": 0.9358793490774597,
+    "conditional_user_bootstrap_rmse_ci95": [
+      0.9121935799032775,
+      0.9599838949513264
+    ],
+    "warm": {
+      "n_ratings": 19948,
+      "rmse": 0.9344589359315477
+    },
+    "cold_item": {
+      "n_ratings": 52,
+      "rmse": 1.3570399996075908
+    }
+  },
+  "test_evidence_sha256": "3abf5156df7233b50a2e7b9339c8861cd0cf6ef80ed7f51c4bdb904148e31604",
+  "selected_checkpoint_sha256": "0ae631bbf13d05683400f6b9f313981546eebe0efe368046dffe3afa0a1c592e",
+  "data_roles": {
+    "fit": 64000,
+    "validation": 16000,
+    "test": 20000,
+    "users": 943,
+    "items": 1682
+  },
+  "scope": "Sequential single-objective TPE versus random search; equal trial/epoch budgets and shared first eight proposals per seed. Search selects by validation RMSE only. Ranks and runtime differ by proposed parameters; trial counts are not matched FLOPs. The official test is scored once for each completed strategy's selected model. This small search does not establish TPE superiority.",
+  "timing_scope": "This attempt including all sequential fitting, evidence export and final test; complete prior campaigns skip, partial continuation is rejected."
+}

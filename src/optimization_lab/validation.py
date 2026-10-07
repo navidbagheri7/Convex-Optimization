@@ -14,6 +14,12 @@ from .routing import integer_one_tree, tour_length
 
 def validate(require_notebooks=True):
     protocols, counts = records()
+    import subprocess
+    import sys
+
+    for script in ["report_extensions.py", "validate_explorer.py"]:
+        subprocess.run([sys.executable, str(Path("scripts") / script)], check=True)
+
     for path in Path("configs").glob("*.json"):
         assert (
             path.read_bytes()
@@ -25,6 +31,20 @@ def validate(require_notebooks=True):
             if family == "recommendation_fixed" and name == "recommendation.py":
                 source = Path("docs/source_snapshots/recommendation_fixed.py")
             assert sha256(source) == digest, f"Source changed: {path}, {source}"
+    audit = read("docs/adaptive_checkpoint_audit.json")
+    assert audit["status"] == "passed" and audit["selected_models"] == len(audit["checks"]) == 6
+    for name, digest in audit["source_sha256"].items():
+        assert not Path(name).is_absolute() and sha256(name) == digest
+    for row in audit["checks"]:
+        selected = read(
+            Path("results/reference/adaptive_search")
+            / row["strategy"]
+            / f"seed{row['seed']}"
+            / "metrics.json"
+        )
+        assert row["checkpoint_sha256"] == selected["selected_checkpoint_sha256"]
+        assert row["test_ratings"] == 20000 and row["all_predictions_bitwise_equal"]
+        assert row["test_rmse"] == selected["test"]["rmse"]
     numeric = list(Path("assets/source_data").rglob("*.npz"))
     for path in numeric:
         with np.load(path, allow_pickle=False) as data:
@@ -219,7 +239,7 @@ def validate(require_notebooks=True):
     notebooks = list(Path("notebooks").glob("*.ipynb"))
     cells = 0
     if require_notebooks:
-        assert len(notebooks) == 14
+        assert len(notebooks) == 17
         for path in notebooks:
             notebook = nbformat.read(path, as_version=4)
             nbformat.validate(notebook)
@@ -237,6 +257,9 @@ def validate(require_notebooks=True):
         numeric_artifacts=len(numeric),
         recommendation_candidate_evaluations=recommendation_candidates,
         selected_model_checkpoints=selected_models,
+        adaptive_selected_model_checkpoints=6,
+        adaptive_search_candidate_evaluations=96,
+        primal_dual_solver_results=72,
         routing_results=routes,
         notebooks=len(notebooks),
         executed_code_cells=cells,

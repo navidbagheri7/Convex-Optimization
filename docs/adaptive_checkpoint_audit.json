@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "selected_models": 6,
+  "checks": [
+    {
+      "strategy": "random",
+      "seed": 0,
+      "test_ratings": 20000,
+      "checkpoint_sha256": "0ae631bbf13d05683400f6b9f313981546eebe0efe368046dffe3afa0a1c592e",
+      "test_rmse": 0.9358051065751144,
+      "all_predictions_bitwise_equal": true,
+      "repeated_command_csv_sha256": "b5a62b6749495602216bf0190e1c5939407afddd601592d05f173889f89a3302"
+    },
+    {
+      "strategy": "random",
+      "seed": 1,
+      "test_ratings": 20000,
+      "checkpoint_sha256": "ca337cc69a9d6260cffb2d12e8b9100d28495ee8f9fecde7bb585541a20e3511",
+      "test_rmse": 0.9376664055151839,
+      "all_predictions_bitwise_equal": true,
+      "repeated_command_csv_sha256": "7e02e52a3b8fa26bbfca04647da9ba5129bf8c58f9793943d3954f3eb482e4d5"
+    },
+    {
+      "strategy": "random",
+      "seed": 2,
+      "test_ratings": 20000,
+      "checkpoint_sha256": "79d6818f535899860bcaf2d92a63f4b5c72dfa1ac911df77bc476b1ab57bdfae",
+      "test_rmse": 0.9372599993488195,
+      "all_predictions_bitwise_equal": true,
+      "repeated_command_csv_sha256": "1a68cee1a7f209e0ef7490e5c0b8163e86512532430c3428ddeb11d9de7bb43d"
+    },
+    {
+      "strategy": "tpe",
+      "seed": 0,
+      "test_ratings": 20000,
+      "checkpoint_sha256": "0ae631bbf13d05683400f6b9f313981546eebe0efe368046dffe3afa0a1c592e",
+      "test_rmse": 0.9358051065751144,
+      "all_predictions_bitwise_equal": true,
+      "repeated_command_csv_sha256": "b5a62b6749495602216bf0190e1c5939407afddd601592d05f173889f89a3302"
+    },
+    {
+      "strategy": "tpe",
+      "seed": 1,
+      "test_ratings": 20000,
+      "checkpoint_sha256": "fa29b964728cb70a062e13d60440afadb8c9329d68df0c9e6dd951302abd3580",
+      "test_rmse": 0.9393554290912438,
+      "all_predictions_bitwise_equal": true,
+      "repeated_command_csv_sha256": "fc995542676753bd2551cca05bd08af19b28053b190d1f9423006f4641133629"
+    },
+    {
+      "strategy": "tpe",
+      "seed": 2,
+      "test_ratings": 20000,
+      "checkpoint_sha256": "c786d6175f6c65fdbf6896341916bbdfbdfc3b1927a3071fb5458cbeffaea350",
+      "test_rmse": 0.9382642986276679,
+      "all_predictions_bitwise_equal": true,
+      "repeated_command_csv_sha256": "41487b04719f2eb384bee6bd2e92f8a8789f9e76456d689cfbd00ca084605af6"
+    }
+  ],
+  "source_sha256": {
+    "scripts/audit_adaptive_checkpoints.py": "62955760356cfce016d7df4b921bb5a50118f1f6dd51c4d7c5497eafffc43df4",
+    "scripts/predict_ratings.py": "6eea941e9004a2187c7bc10bc6f333af877987e714d4d83593a1371dc12ea43c",
+    "src/optimization_lab/deployment.py": "191d5a59aea1138da90a9d1e34cf3afd2cc660fdf345bc572b2d313651b192e3",
+    "src/optimization_lab/recommendation.py": "40d90910a990f014597512834610e75088078bd268fd36231bc8f6fde2eadbdb"
+  },
+  "scope": "Every one of 20,000 official-test predictions per selected search model; full per-user errors and all selected scores recomputed. Two fresh standalone CSV commands per model reproduce portable float64 predictions exactly. Raw ID pairs and selected factors remain private."
+}

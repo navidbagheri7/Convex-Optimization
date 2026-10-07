@@ -4,6 +4,19 @@ From convex certificates to recommendation and combinatorial search: an English,
 
 This repository reconstructs the main optimization course projects and extends them into reproducible comparisons. It connects each numerical result to its objective, assumptions, data roles and evidence. A solver's success flag is checked against independent calculations; a good training objective is checked against heldout performance; a heuristic route is checked against a genuine lower bound or a published optimum.
 
+Open [the interactive explorer](docs/explorer.html) locally, or run
+`python -m http.server 8000` and visit `http://localhost:8000/docs/explorer.html`.
+The [demo guide](docs/interactive_explorer.md) explains eight concept groups,
+measurement controls, live feasibility slices and optional GitHub Pages setup.
+
+![Interactive optimization explorer](assets/previews/primal_dual_desktop.png)
+
+The completed extension contains **55 full reference protocols**, **72 certified
+TV solver results**, **96 adaptive-search candidate fits**, the preserved **81
+recommendation candidates** and **84 routing outcomes**. Seventeen English
+walkthroughs connect theory, source and executed evidence. The [implementation
+review](docs/implementation_audit.md) records the reviewed contracts and limitations.
+
 ![Routing comparison](assets/figures/routing_comparison.png)
 ![Recommendation comparison](assets/figures/recommendation_comparison.png)
 
@@ -11,6 +24,8 @@ This repository reconstructs the main optimization course projects and extends t
 
 | Study | Owned implementation | Independent reference / evidence |
 |---|---|---|
+| [Primal–dual imaging](docs/primal_dual.md) | PDHG, strongly-convex accelerated PDHG, dual FISTA and FFT ADMM | Real-photo/procedural tasks; periodic operator adjoint, feasible Fenchel gap and independent cone crop oracles |
+| [Adaptive model search](docs/adaptive_search.md) | Sequential Optuna TPE and random search with the same audited factor model | Shared startup proposals, three search/fitting seeds, complete trial curves and final reserved-test inference |
 | Sparse regression | ISTA, FISTA, ADMM | CVXPY, sklearn with matched normalization, feasible Lasso dual gap |
 | Low-rank completion | Exact-SVD proximal ISTA / FISTA | Nuclear-norm conic reference, spectral dual feasibility |
 | Poisson intensity estimation | Boundary-correct likelihood proximal smoothing | Exponential-cone reference, projected KKT, validation / synthetic test days |
@@ -27,11 +42,12 @@ The original main projects are **MovieLens matrix factorization and Berlin52 / c
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-python -m pip install -e '.[recommendation,routing,notebooks,dev]'
+python -m pip install -e '.[recommendation,routing,search,notebooks,dev]'
 pytest -q --tb=short
 optimization-lab convex --quick
 optimization-lab first-order --quick
 optimization-lab spectral --quick
+optimization-lab primal-dual --quick
 ```
 
 Quick runs are smoke checks and write to `results/smoke`; they are not the published benchmarks. The installed CLI carries its default numerical configurations and licensed example photo, so these commands also work outside the checkout. Full references, figures and executed notebooks are included here. [Reproduction](docs/reproduction.md) gives the exact budgets, GPU commands and cache layout.
@@ -45,6 +61,18 @@ optimization-lab data --dataset routing --data-root "$OPTIMIZATION_DATA_ROOT"
 optimization-lab recommendation --data-root "$OPTIMIZATION_DATA_ROOT" --seed 0 --device cuda:0
 optimization-lab routing --instance-root "$OPTIMIZATION_DATA_ROOT/optimization/routing"
 ```
+
+For adaptive search and standalone inference:
+
+```bash
+optimization-lab adaptive-search --data-root "$OPTIMIZATION_DATA_ROOT" --seed 0 --strategy tpe --device cuda:0
+python scripts/predict_ratings.py --checkpoint results/reference/adaptive_search/tpe/seed0/checkpoints/selected.npz --input pairs.csv --output predictions.csv
+python scripts/report_extensions.py
+```
+
+The input CSV uses zero-based integer `user_id,item_id`. Unknown IDs use available
+biases plus the fitting mean. Checkpoints remain private; training commands produce
+portable factors for your own inference.
 
 CPU recommendation fitting is supported. Repeat recommendation with seeds 1 and 2 for the full comparison. The route study runs all three seeds itself. `optimization-lab report` rebuilds the reports and figures from complete reference evidence; `optimization-lab validate` audits that evidence without needing raw ratings or private checkpoints.
 

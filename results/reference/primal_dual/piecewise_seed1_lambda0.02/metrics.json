@@ -1,0 +1,106 @@
+{
+  "rows": [
+    {
+      "certificate": {
+        "primal": 26.2354803384556,
+        "dual": 26.234159478895272,
+        "gap": 0.0013208595603266815,
+        "dual_feasibility": 0.0
+      },
+      "iterations": 20,
+      "converged": true,
+      "elapsed_seconds": 0.006430064328014851,
+      "operator_squared_norm_bound": 8.0,
+      "method": "pdhg",
+      "psnr": 23.261635648648223,
+      "mse": 0.00471885285403156,
+      "oracle_certificate": {
+        "primal": 0.7173137183198054,
+        "dual": 0.7173137099733087,
+        "gap": 8.346496715994078e-09,
+        "dual_feasibility": 0.0
+      },
+      "oracle_objective_difference": 8.313075228194577e-09,
+      "oracle_image_max_absolute_difference": 5.119988867319236e-07
+    },
+    {
+      "certificate": {
+        "primal": 26.242729288328427,
+        "dual": 26.234033318797298,
+        "gap": 0.008695969531128611,
+        "dual_feasibility": 0.0
+      },
+      "iterations": 60,
+      "converged": true,
+      "elapsed_seconds": 0.016278992407023907,
+      "operator_squared_norm_bound": 8.0,
+      "method": "accelerated_pdhg",
+      "psnr": 23.128217801966517,
+      "mse": 0.004866068517597014,
+      "oracle_certificate": {
+        "primal": 0.7173139622087028,
+        "dual": 0.7173137082670327,
+        "gap": 2.539416701363706e-07,
+        "dual_feasibility": 0.0
+      },
+      "oracle_objective_difference": 2.5220197263919886e-07,
+      "oracle_image_max_absolute_difference": 0.00010206349691053995
+    },
+    {
+      "certificate": {
+        "primal": 26.235914185711998,
+        "dual": 26.234159909158862,
+        "gap": 0.0017542765531359805,
+        "dual_feasibility": 0.0
+      },
+      "iterations": 20,
+      "converged": true,
+      "elapsed_seconds": 0.007495534606277943,
+      "operator_squared_norm_bound": 8.0,
+      "method": "dual_fista",
+      "psnr": 23.270468062141013,
+      "mse": 0.004709265694138406,
+      "oracle_certificate": {
+        "primal": 0.7173138157141568,
+        "dual": 0.7173137099665149,
+        "gap": 1.0574764186532803e-07,
+        "dual_feasibility": 0.0
+      },
+      "oracle_objective_difference": 1.0570742658977395e-07,
+      "oracle_image_max_absolute_difference": 1.2904238164412885e-06
+    },
+    {
+      "certificate": {
+        "primal": 26.239787800550737,
+        "dual": 26.233379527234064,
+        "gap": 0.006408273316672819,
+        "dual_feasibility": 0.0
+      },
+      "iterations": 20,
+      "converged": true,
+      "elapsed_seconds": 0.017948427237570286,
+      "operator_squared_norm_bound": 8.0,
+      "method": "admm",
+      "psnr": 23.196397070106567,
+      "mse": 0.0047902733112078965,
+      "oracle_certificate": {
+        "primal": 0.7173137213453027,
+        "dual": 0.7173137098496716,
+        "gap": 1.1495631113689342e-08,
+        "dual_feasibility": 0.0
+      },
+      "oracle_objective_difference": 1.1338572525332324e-08,
+      "oracle_image_max_absolute_difference": 1.4727111549706073e-05
+    }
+  ],
+  "oracle": {
+    "solver": "CLARABEL",
+    "status": "optimal",
+    "objective": 0.7173137100067302,
+    "solver_seconds": 0.011042739
+  },
+  "evidence": "assets/source_data/primal_dual/piecewise_seed1_lambda0.02.npz",
+  "evidence_sha256": "fc3fa5bad406def90ba3912bb131d18d0873ec7a455c6141294fbc52d5288c71",
+  "observation_psnr": 20.01140227913961,
+  "scope": "Fixed penalty comparisons; no best-of-test tuning. Float observations and reconstructions are unclipped for objectives and PSNR; display alone is clipped. Small conic oracles solve separate periodic crops, not the large image."
+}

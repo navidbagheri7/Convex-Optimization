@@ -9,13 +9,18 @@
     "recommendation_fixed": 3,
     "recommendation": 3,
     "routing": 2,
-    "memetic": 2
+    "memetic": 2,
+    "primal_dual": 18,
+    "adaptive_search": 6
   },
-  "numeric_artifacts": 139,
+  "numeric_artifacts": 259,
   "recommendation_candidate_evaluations": 81,
   "selected_model_checkpoints": 30,
+  "adaptive_selected_model_checkpoints": 6,
+  "adaptive_search_candidate_evaluations": 96,
+  "primal_dual_solver_results": 72,
   "routing_results": 84,
-  "notebooks": 14,
-  "executed_code_cells": 64,
-  "figure_pairs": 30
+  "notebooks": 17,
+  "executed_code_cells": 79,
+  "figure_pairs": 33
 }

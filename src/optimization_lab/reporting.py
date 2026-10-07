@@ -22,6 +22,8 @@ EXPECTED = {
     "recommendation": 3,
     "routing": 2,
     "memetic": 2,
+    "primal_dual": 18,
+    "adaptive_search": 6,
 }
 
 
@@ -501,6 +503,13 @@ def report():
         "",
     ]
     Path("docs/results.md").write_text("\n".join(lines))
+    figures.extend(
+        path.stem
+        for path in sorted(directory.glob("*.png"))
+        if path.stem.startswith(("primal_dual_", "adaptive_search"))
+        and path.with_suffix(".pdf").exists()
+        and path.stem not in figures
+    )
     write_json(
         "docs/figure_manifest.json",
         dict(

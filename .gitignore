@@ -12,3 +12,5 @@ dist/
 results/smoke/
 results/**/checkpoints/
 *.log
+
+release/

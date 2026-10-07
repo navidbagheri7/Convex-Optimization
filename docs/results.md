@@ -1,6 +1,6 @@
 # Measured results
 
-The release contains 31 complete protocols. Figures below are regenerated from included numeric evidence.
+The release contains 55 complete protocols. Figures below are regenerated from included numeric evidence.
 
 ## MovieLens official test
 

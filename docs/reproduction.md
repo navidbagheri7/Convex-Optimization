@@ -31,3 +31,30 @@ The MovieLens ZIP is checked against the recorded SHA256 before extraction. ZIP 
 The notebooks execute small oracles and inspect included complete reference evidence. They do not require the private coursework archive, raw MovieLens data or a GPU. Full recommendation reruns and the optional checkpoint audit require the official personal cache. The installed CLI's small deterministic examples work from an arbitrary directory. Packaging checks build a wheel / source distribution, extract the latter to a fresh directory, and execute tests, public evidence validation and all notebooks again. A wheel is also installed into a separate private environment and tested outside the source tree.
 
 Floating-point and GPU execution need not be bitwise identical across machines. Scientific tolerances, data roles, objective conventions, seed sets and certificate scope are explicit. Checkpoint NPZ files have portable NumPy inference; exact optimizer-state continuation is not promised. This repository has no hidden automatic data upload or GitHub push.
+
+## Version 1.1 comparison and browser extension
+
+Install `.[search]` for pinned Optuna 5.0.0. The existing scientific stack remains
+a tested reference, rather than a claim that all pins are the newest versions.
+
+```bash
+optimization-lab primal-dual
+# Repeat seeds 0,1,2 and strategies random,tpe; each campaign is sequential.
+optimization-lab adaptive-search --seed 0 --strategy random --device cuda:0 --data-root /data/navid.bagheri-shouraki/ML_data
+python scripts/report_extensions.py
+python scripts/audit_adaptive_checkpoints.py
+python scripts/create_explorer.py
+python scripts/execute_notebooks.py
+optimization-lab validate
+```
+
+Primal–dual comparisons require no download: the attributed installed photo and
+procedural geometry are bundled. The 96 search candidates use the already prepared
+official MovieLens-100K split. Searches select on validation; test is evaluated once
+for the winner of each completed campaign. Incomplete adaptive searches reject
+continuation before replacing their records; use a fresh `--output` root.
+Complete campaigns skip after checking config and scientific source identities.
+
+The [browser guide](interactive_explorer.md) provides rebuild, optional Chromium
+verification and manual hosting instructions. Templates and views are in the source
+archive; the wheel contains reusable solvers/configs and portable factor inference.

@@ -1,0 +1,546 @@
+{
+  "status": "passed",
+  "version": "1.1.0",
+  "scope": "AST completeness and authored-content/publication checks; numerical/experimental review is separate in implementation_audit.md and validation.json.",
+  "authored_components": 51,
+  "source_modules": 24,
+  "components": [
+    {
+      "path": "src/optimization_lab/__init__.py",
+      "sha256": "0c2480b9d018d40c7c74076b6e3c9e232de1fd8f8cdd348fa44f1dd6db8ccf01",
+      "lines": 3,
+      "module_docstring": "Certified convex numerical studies and audited nonconvex comparisons.",
+      "public_definitions": []
+    },
+    {
+      "path": "src/optimization_lab/adaptive_search.py",
+      "sha256": "d73efe3f8f3072914c0a9005bc7f05a466c36623a7c53677b4f1938700483320",
+      "lines": 155,
+      "module_docstring": "Sequential validation-only Optuna search with complete candidate evidence.\n\nReuse the audited degree-regularized MovieLens factor objective and portable\ninference. Search state lives in private SQLite; public trial records and numeric\ncurves are enough to independently check selection and held-out metrics.",
+      "public_definitions": [
+        "fit"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/artifacts.py",
+      "sha256": "67175cdb0335f96b975d062a2becf4d50bc457eb6dc08631465015b6240914fa",
+      "lines": 75,
+      "module_docstring": "Portable experiment records and compact, numeric evidence.",
+      "public_definitions": [
+        "serial",
+        "write_json",
+        "sha256",
+        "Run",
+        "interval"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/barrier.py",
+      "sha256": "5c0e38c4ec7bce742a91c820f85382eef6fffdbe45b0b088da87f20e62e0671d",
+      "lines": 135,
+      "module_docstring": "Feasible-start Newton barrier for reciprocal-fuel scheduling and dual witnesses.",
+      "public_definitions": [
+        "speed_constraints",
+        "speed_certificate",
+        "speed_barrier"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/cli.py",
+      "sha256": "cd4bf64d12d0d734fa71a9fb176ad4ffaba15174ce2a9468768e5758c60a32b5",
+      "lines": 121,
+      "module_docstring": "Reproducible studies with bundled default configurations.",
+      "public_definitions": [
+        "main"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/convex_cases.py",
+      "sha256": "41166f59843590bd0b49ee47473a670e463c675d22a468ae7fe01377589015c0",
+      "lines": 402,
+      "module_docstring": "Reconstructed convex applications with physical checks and independent witnesses.",
+      "public_definitions": [
+        "solve",
+        "load_parameters",
+        "speed",
+        "revenue",
+        "geometric_blend",
+        "nearest_psd",
+        "regulator",
+        "evacuation",
+        "portfolio"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/data.py",
+      "sha256": "e61c15e6e73c2793975ca1f3f6c7631bb9d73938ce37d168c98bf356ffdf6938",
+      "lines": 69,
+      "module_docstring": "Explicit cache downloads; raw datasets never enter the public repository.",
+      "public_definitions": [
+        "download",
+        "prepare"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/deployment.py",
+      "sha256": "191d5a59aea1138da90a9d1e34cf3afd2cc660fdf345bc572b2d313651b192e3",
+      "lines": 46,
+      "module_docstring": "Portable factor inference with strict numeric checkpoint validation.",
+      "public_definitions": [
+        "load_factors",
+        "predict_ratings"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/exact.py",
+      "sha256": "b9ec5833c5ccb4a5b88bef289f9caf09a3680c8c44f50fd563079d011de06938",
+      "lines": 64,
+      "module_docstring": "Independent mixed-integer TSP formulation for small exact comparisons.",
+      "public_definitions": [
+        "mtz_tsp"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/experiments.py",
+      "sha256": "ac1ceb34cfed5e28f0cc2d909825156c1b555f93551742597a09f4bb8cc6eb67",
+      "lines": 56,
+      "module_docstring": "Complete-budget convex application studies and exact numerical provenance.",
+      "public_definitions": [
+        "convex"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/first_order.py",
+      "sha256": "0745e3ae5bd8a493a927dfbbe0c80db33114d2dc2bfe4dcaa31092d302373c67",
+      "lines": 214,
+      "module_docstring": "Owned proximal algorithms with genuinely dual-feasible objective certificates.",
+      "public_definitions": [
+        "soft_threshold",
+        "lasso_certificate",
+        "lasso",
+        "nuclear_certificate",
+        "nuclear_completion",
+        "poisson_prox",
+        "poisson_smooth"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/first_order_study.py",
+      "sha256": "3c1602f22c2fd1bdb607fcbbf5ba246ce47057a1cb7a6ae61c1c98fa7ae0f944",
+      "lines": 282,
+      "module_docstring": "Measured convergence and numerical certificates, with independent convex oracles.",
+      "public_definitions": [
+        "poisson_score",
+        "study"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/geometry.py",
+      "sha256": "86c2daff56a551e5499f202a52bec2a1d716962fb87452dbde95b6e969cd62b7",
+      "lines": 55,
+      "module_docstring": "Four explicitly scoped transformed convex feasibility domains.",
+      "public_definitions": [
+        "transformed_domains"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/memetic.py",
+      "sha256": "594a2e323435ef95b7d959cb2d6e9f28faa180797f382746e970bd63642c34a8",
+      "lines": 111,
+      "module_docstring": "Explicit genetic/local-search hybrids, kept separate from textbook GA recipes.",
+      "public_definitions": [
+        "hybrid",
+        "study"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/primal_dual.py",
+      "sha256": "918a242ed8ebe713dc754666cd9771e5979acfd7a49bc27cb22e4be7bc9cbf96",
+      "lines": 129,
+      "module_docstring": "Periodic isotropic TV: owned primal-dual, dual acceleration and FFT splitting.\n\nThe feasible dual certificate applies to every iterate, independently of method.\nAll scores use the unconstrained floating image; clipping is display-only.",
+      "public_definitions": [
+        "gradient",
+        "adjoint",
+        "project_ball",
+        "certificate",
+        "denoise"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/primal_dual_study.py",
+      "sha256": "91efce1f4cd1229bfe599e4bbe5f9dbe2a55ae5f668f1db4d36b295318cdc121",
+      "lines": 140,
+      "module_docstring": "Real-photo and procedural TV comparisons with independently solved conic crops.",
+      "public_definitions": [
+        "image",
+        "conic_reference",
+        "study"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/recommendation.py",
+      "sha256": "40d90910a990f014597512834610e75088078bd268fd36231bc8f6fde2eadbdb",
+      "lines": 398,
+      "module_docstring": "Matched degree-regularized biased matrix factorization on official MovieLens splits.\n\nAll validation and deployment predictions use portable float64 NumPy arithmetic\non exported factors, including factors fitted in GPU float32. Raw ratings stay local.",
+      "public_definitions": [
+        "load_ratings",
+        "initialize",
+        "predict",
+        "objective",
+        "score",
+        "fit_als",
+        "FactorModel",
+        "rating_loss",
+        "fit_stochastic",
+        "test_statistics",
+        "fit"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/reporting.py",
+      "sha256": "fd1550b3f3958078e84116a5e9aa34e5117dd1bfbf9566dc2451214cdde18148",
+      "lines": 521,
+      "module_docstring": "Measured tables and figures regenerated from complete numeric evidence.",
+      "public_definitions": [
+        "read",
+        "records",
+        "report"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/resources.py",
+      "sha256": "d542807b242aad04ab5e6c40f7593b3cbbca272efd32c6aa508a8cbbbb6c5282",
+      "lines": 15,
+      "module_docstring": "Repository and installed-package resource resolution.",
+      "public_definitions": [
+        "config_path",
+        "photo_path"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/routing.py",
+      "sha256": "37b009123ffab0d81d385e713fcb45aaee293510348d9594f78bfb1782162502",
+      "lines": 417,
+      "module_docstring": "Owned TSP search and exact integer 1-tree certificates; no optimal tours loaded.",
+      "public_definitions": [
+        "load_tsplib",
+        "tour_length",
+        "Budget",
+        "nearest_neighbor",
+        "two_opt",
+        "mutate",
+        "order_crossover",
+        "cycle_crossover",
+        "annealing",
+        "genetic",
+        "ant_colony",
+        "search",
+        "integer_one_tree",
+        "one_tree_bound",
+        "held_karp",
+        "ortools_search"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/routing_study.py",
+      "sha256": "b8fe3672a31608142d9f8330636544e394e85e16e5f2a6b5a19e555bb404f8ee",
+      "lines": 93,
+      "module_docstring": "Routing comparison, including independently re-evaluable integer certificates.",
+      "public_definitions": [
+        "run"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/spectral.py",
+      "sha256": "fb2f6296c7c506acb570cccb3c1bc8996fe2581b0fc1260cba984c7b4429e8b8",
+      "lines": 153,
+      "module_docstring": "Owned symmetric Householder/shifted QR and range-correct SVD/PCA.",
+      "public_definitions": [
+        "tridiagonalize",
+        "symmetric_qr",
+        "nonsymmetric_schur",
+        "pca",
+        "channel_svd"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/spectral_study.py",
+      "sha256": "aa7cfc546d00300c1b7313580dd15124833c7efc7e1d3b9f3911f1168e8be0fe",
+      "lines": 102,
+      "module_docstring": "Spectral accuracy, multiplicity and approximation evidence.",
+      "public_definitions": [
+        "study"
+      ]
+    },
+    {
+      "path": "src/optimization_lab/validation.py",
+      "sha256": "ad533ebd58e775babc0455dd8c9ad87052a4f3ceaddc1977453c879bcce7ed37",
+      "lines": 270,
+      "module_docstring": "Portable public-evidence audit, independent of private ratings/checkpoints.",
+      "public_definitions": [
+        "validate"
+      ]
+    },
+    {
+      "path": "scripts/audit_adaptive_checkpoints.py",
+      "sha256": "62955760356cfce016d7df4b921bb5a50118f1f6dd51c4d7c5497eafffc43df4",
+      "lines": 115,
+      "module_docstring": "Verify all six selected search checkpoints against actual full-test predictions.",
+      "public_definitions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/audit_checkpoints.py",
+      "sha256": "a93e3ac927410ecbc719bb018b078f59d95543a10e0e5d449b0aaeba483faa8b",
+      "lines": 104,
+      "module_docstring": "Recompute every selected model's test aggregates from fresh portable checkpoints.",
+      "public_definitions": [
+        "gradient",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/check_distribution.py",
+      "sha256": "175249c374fa8cdc058076aafa2a6de83532749f70705c8e4e51f95b57f5afa7",
+      "lines": 120,
+      "module_docstring": "Verify a built wheel and source archive using isolated imports and portable evidence.\n\nBuild first with ``python -m build --outdir .local/dist``. This checker runs\noutside the source tree and does not access course originals, ratings or factors.",
+      "public_definitions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/check_explorer_browser.py",
+      "sha256": "6c08a4b4c0fd13360f9722d3d87912a283c62ba3cc05c3eb04ed8d39f846f0a2",
+      "lines": 209,
+      "module_docstring": "Exercise every optimization preset, live inequalities and mobile layouts in Chromium.",
+      "public_definitions": [
+        "feasible",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/create_explorer.py",
+      "sha256": "e07fef2906ba252360d29ba2e017579d992aaaf92ac18732d1855286db5980b8",
+      "lines": 244,
+      "module_docstring": "Build a local optimization explorer using complete, hash-bound public evidence.",
+      "public_definitions": [
+        "metric",
+        "arrays",
+        "picture",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/create_extension_notebooks.py",
+      "sha256": "c495b4e417086ece45be581afe857d4c19d2c207d9c2929ba70844601db2d4f4",
+      "lines": 103,
+      "module_docstring": "Create three English walkthroughs for certified imaging and modern model search.",
+      "public_definitions": []
+    },
+    {
+      "path": "scripts/create_notebooks.py",
+      "sha256": "2f04988991f76367d7c30defc4cc5cb489312cc697a7e3baf771d0301ec0e013",
+      "lines": 301,
+      "module_docstring": "Authored English numerical walkthroughs; execute separately before release.",
+      "public_definitions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/execute_notebooks.py",
+      "sha256": "b7fc7ab0cb5661a4dd654f735ecca52ccfde3d2613a145d27bba0c4975d1783b",
+      "lines": 78,
+      "module_docstring": "Execute every authored notebook in a fresh kernel, preserving real outputs.",
+      "public_definitions": [
+        "CurrentInterpreterClient",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/predict_ratings.py",
+      "sha256": "6eea941e9004a2187c7bc10bc6f333af877987e714d4d83593a1371dc12ea43c",
+      "lines": 67,
+      "module_docstring": "Predict ratings from a portable checkpoint and zero-based integer ID pairs.",
+      "public_definitions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/recover_instances.py",
+      "sha256": "826a36c91404690291f45dc040e8069f60af514bcc4780a4ad8ff9e8da2d4048",
+      "lines": 54,
+      "module_docstring": "Recover private TSPLIB cache files from the included verified numeric witnesses.\n\nUse this offline path when the original TSPLIB host is unavailable. It does not\nload or write a published optimal tour; distances are verified after roundtrip.",
+      "public_definitions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/report_extensions.py",
+      "sha256": "fee47c73e0b3e3e1da55b63711b313da35ad5300603ae5bac6194fcb0656de05",
+      "lines": 298,
+      "module_docstring": "Independently recompute TV certificates and adaptive-search selection/metrics.",
+      "public_definitions": [
+        "check_record",
+        "report_tv",
+        "report_search",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/review_components.py",
+      "sha256": "ae6d278a34fab76aedcaaac9954ad4c22662ba2af1bc77f8dbfc2092fe451ecd",
+      "lines": 92,
+      "module_docstring": "Inventory authored source and audit English content, local links and private exclusions.",
+      "public_definitions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_adaptive_search.py",
+      "sha256": "94f09579a7cac936a432ee166ad2c55f477cbafa3015673f42b5b5d8e79df982",
+      "lines": 28,
+      "module_docstring": "Run a declared random or sequential TPE MovieLens search.",
+      "public_definitions": []
+    },
+    {
+      "path": "scripts/run_auxiliary.py",
+      "sha256": "a009e50564a6321063afa53d17ac81d6c76ad96403acc70b73b57268c1a9fa71",
+      "lines": 47,
+      "module_docstring": "Regenerate transformed-domain and exact-small-TSP evidence.",
+      "public_definitions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_primal_dual.py",
+      "sha256": "f10a3175bc7d609557d07a062899cc14d3c2f0db1188841ffd7412392d5b6563",
+      "lines": 22,
+      "module_docstring": "Run owned TV solver comparisons with explicit reference/smoke separation.",
+      "public_definitions": []
+    },
+    {
+      "path": "scripts/validate_explorer.py",
+      "sha256": "a4928bdb4383fcbf46a405fa9fa8dc97de7c140ef9d7cc61d465d31289e7b521",
+      "lines": 129,
+      "module_docstring": "Check every published optimization image and embedded measurement against its source.",
+      "public_definitions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/validate_release.py",
+      "sha256": "cfec130ee1947c35d38fe6d91a0ea49edba114b942cf0d0ce32392238ccb5d30",
+      "lines": 6,
+      "module_docstring": "Run public scientific validation from the repository root.",
+      "public_definitions": []
+    },
+    {
+      "path": "tests/test_barrier.py",
+      "sha256": "784ccd7ab985d87694f5425ec2c370f6c94862568d5dcf09d0157af38f3c946a",
+      "lines": 21,
+      "module_docstring": null,
+      "public_definitions": [
+        "test_reciprocal_fuel_oracle_and_dual_gap"
+      ]
+    },
+    {
+      "path": "tests/test_convex_cases.py",
+      "sha256": "5ca73f01b5102df2857b207250435e0686b85e23247daa0dd3353189d5dc7617",
+      "lines": 30,
+      "module_docstring": null,
+      "public_definitions": [
+        "test_nonsymmetric_psd_projection_symmetrizes_and_clips",
+        "test_lqr_forward_witness_matches_terminal_map",
+        "test_riskless_portfolio_dual_oracle"
+      ]
+    },
+    {
+      "path": "tests/test_deployment.py",
+      "sha256": "b0685da112bf8ca017fe209979eeec7d45ca9661674dd1c44df13dddee431a90",
+      "lines": 20,
+      "module_docstring": null,
+      "public_definitions": [
+        "test_portable_inference_and_readonly_validated_shapes"
+      ]
+    },
+    {
+      "path": "tests/test_exact.py",
+      "sha256": "9804c9a6939b136cca4274ec60102f569cf9bd1cf3d6faab06492f00bd556b34",
+      "lines": 14,
+      "module_docstring": null,
+      "public_definitions": [
+        "test_milp_and_dynamic_programming_independent_exact_agreement"
+      ]
+    },
+    {
+      "path": "tests/test_first_order.py",
+      "sha256": "8e219c18b8485c42eedd29747e2b45d97aa4c124332a3a46b8ad7fbf6aea3304",
+      "lines": 46,
+      "module_docstring": null,
+      "public_definitions": [
+        "test_lasso_identity_oracle_and_dual_feasibility",
+        "test_nuclear_diagonal_oracle_and_masked_missing_values",
+        "test_poisson_boundary_and_cancellation_stability",
+        "test_nonfinite_parameters_rejected_and_scalar_prox_boundary"
+      ]
+    },
+    {
+      "path": "tests/test_memetic.py",
+      "sha256": "28bb05886244996cddadf2f19b6b9d29190bf03f0eeaa2fdb5a4344b3f890c46",
+      "lines": 15,
+      "module_docstring": null,
+      "public_definitions": [
+        "test_hybrid_charges_initialization_and_improvement"
+      ]
+    },
+    {
+      "path": "tests/test_primal_dual.py",
+      "sha256": "78c6316c743d8958111017ddb1cc8b19f144c4ddd37ed060f2c70022d851733b",
+      "lines": 44,
+      "module_docstring": "Independent adjoint, cone-oracle and feasible-dual checks.",
+      "public_definitions": [
+        "test_periodic_adjoint_and_constant_nullspace",
+        "test_all_solvers_against_independent_cone_model",
+        "test_certificate_projects_unfeasible_dual_and_invalid_inputs_rejected"
+      ]
+    },
+    {
+      "path": "tests/test_recommendation.py",
+      "sha256": "fb03513503b0afdc480b0f95e1290443275d820f3b0745942e733dc285914883",
+      "lines": 52,
+      "module_docstring": null,
+      "public_definitions": [
+        "toy",
+        "test_rating_loss_matches_degree_objective_and_repeated_id_gradient",
+        "test_als_monotonicity_and_cold_fallback"
+      ]
+    },
+    {
+      "path": "tests/test_routing.py",
+      "sha256": "1f759722e1de9dc28428f8eea86c5d971da80ae3add5d3a12c0cb9654eb0fd71",
+      "lines": 80,
+      "module_docstring": null,
+      "public_definitions": [
+        "distances",
+        "test_exact_dp_and_integer_bound_against_all_tours",
+        "test_crossover_mutation_permutations",
+        "test_search_budget_and_two_opt_monotonicity",
+        "test_certificate_overflow_guard_handles_minimum_signed_integer"
+      ]
+    },
+    {
+      "path": "tests/test_spectral.py",
+      "sha256": "43ba16e469b62cee731f8fb16c7cbee2942f299228a933b511249512b0c8c001",
+      "lines": 29,
+      "module_docstring": null,
+      "public_definitions": [
+        "test_repeated_eigenvalues_and_reconstruction",
+        "test_schur_vectors_are_not_claimed_as_eigenvectors",
+        "test_truncated_svd_has_optimal_tail_error"
+      ]
+    }
+  ],
+  "publishable_files": 1206,
+  "issues": []
+}

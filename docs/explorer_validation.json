@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "source_bound": true,
+  "sections": 8,
+  "routing_results": 84,
+  "tv_results": 72,
+  "recommender_models": 30,
+  "adaptive_candidates": 96,
+  "image_source_checks": 648,
+  "browser_presets": 374,
+  "html_sha256": "4e1f98c3cf9fe302bf66a61546f2b42b2f883b41a651304fbf17295b0f0a981c"
+}

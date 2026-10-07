@@ -1,0 +1,65 @@
+{
+  "status": "complete",
+  "config": {
+    "data_root": "/data/navid.bagheri-shouraki/ML_data",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "strategies": [
+      "random",
+      "tpe"
+    ],
+    "trials": 16,
+    "startup_trials": 8,
+    "epochs": 40,
+    "batch_size": 2048,
+    "validation_fraction": 0.2,
+    "split_seed": 314159,
+    "search_seed": 20261007,
+    "rank_choices": [
+      8,
+      16,
+      32
+    ],
+    "penalty_bounds": [
+      0.001,
+      0.2
+    ],
+    "bias_penalty_bounds": [
+      0.0001,
+      0.03
+    ],
+    "learning_rate_bounds": [
+      0.0003,
+      0.01
+    ],
+    "scope": "Sequential single-objective TPE versus random search; equal trial/epoch budgets and shared first eight proposals per seed. Search selects by validation RMSE only. Ranks and runtime differ by proposed parameters; trial counts are not matched FLOPs. The official test is scored once for each completed strategy's selected model. This small search does not establish TPE superiority.",
+    "seed": 0,
+    "strategy": "tpe",
+    "device": "cuda:0",
+    "quick": false,
+    "source_data_sha256": {
+      "u1.base": "ce253ec86c448b44fb3ba9a30d12dcfc2e9210cbde71efada3730c22e9ac212a",
+      "u1.test": "18c6014a4b2c7324f250a63f8904a7b16b2b19f911129e346141507b0cbac950",
+      "u.data": "06416e597f82b7342361e41163890c81036900f418ad91315590814211dca490",
+      "README": "4883b8cf340ed0059971b33f56ad3adc88a40792108ebca3d24aafc4c82e8b52"
+    }
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "cvxpy": "1.7.5",
+    "clarabel": "0.11.1",
+    "torch": "2.7.1+cu128",
+    "ortools": "9.14.6206",
+    "optuna": "5.0.0"
+  },
+  "source_sha256": {
+    "adaptive_search.py": "d73efe3f8f3072914c0a9005bc7f05a466c36623a7c53677b4f1938700483320",
+    "recommendation.py": "40d90910a990f014597512834610e75088078bd268fd36231bc8f6fde2eadbdb"
+  },
+  "elapsed_seconds": 88.20850661862642
+}

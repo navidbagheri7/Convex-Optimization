@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "html_sha256": "4e1f98c3cf9fe302bf66a61546f2b42b2f883b41a651304fbf17295b0f0a981c",
+  "sections": 8,
+  "checked_presets": 374,
+  "live_geometry_checks": 32,
+  "mobile_width": 390,
+  "javascript_errors": []
+}

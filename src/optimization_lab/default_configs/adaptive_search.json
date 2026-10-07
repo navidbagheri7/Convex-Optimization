@@ -1,0 +1,17 @@
+{
+  "data_root": "/data/navid.bagheri-shouraki/ML_data",
+  "seeds": [0, 1, 2],
+  "strategies": ["random", "tpe"],
+  "trials": 16,
+  "startup_trials": 8,
+  "epochs": 40,
+  "batch_size": 2048,
+  "validation_fraction": 0.2,
+  "split_seed": 314159,
+  "search_seed": 20261007,
+  "rank_choices": [8, 16, 32],
+  "penalty_bounds": [0.001, 0.2],
+  "bias_penalty_bounds": [0.0001, 0.03],
+  "learning_rate_bounds": [0.0003, 0.01],
+  "scope": "Sequential single-objective TPE versus random search; equal trial/epoch budgets and shared first eight proposals per seed. Search selects by validation RMSE only. Ranks and runtime differ by proposed parameters; trial counts are not matched FLOPs. The official test is scored once for each completed strategy's selected model. This small search does not establish TPE superiority."
+}

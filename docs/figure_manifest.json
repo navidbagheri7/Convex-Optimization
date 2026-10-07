@@ -29,8 +29,11 @@
     "routing_comparison",
     "routing_fixed_seed_tours",
     "routing_convergence",
-    "routing_lower_bounds"
+    "routing_lower_bounds",
+    "adaptive_search",
+    "primal_dual_photograph",
+    "primal_dual_piecewise"
   ],
-  "count": 30,
+  "count": 33,
   "scope": "Numeric source arrays and complete protocol records; PNG and vector PDF for every figure. Photo attribution in third_party.md."
 }
