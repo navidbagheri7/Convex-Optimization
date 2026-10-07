@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "notebooks": [
+    {
+      "notebook": "notebooks/01_lasso.ipynb",
+      "executed_code_cells": 4,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/02_nuclear_completion.ipynb",
+      "executed_code_cells": 4,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/03_poisson.ipynb",
+      "executed_code_cells": 5,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/04_conditioning.ipynb",
+      "executed_code_cells": 4,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/05_speed.ipynb",
+      "executed_code_cells": 5,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/06_revenue_blending.ipynb",
+      "executed_code_cells": 5,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/07_matrix_cones.ipynb",
+      "executed_code_cells": 4,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/08_regulator.ipynb",
+      "executed_code_cells": 4,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/09_evacuation.ipynb",
+      "executed_code_cells": 4,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/10_scenario_risk.ipynb",
+      "executed_code_cells": 4,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/11_spectral.ipynb",
+      "executed_code_cells": 5,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/12_recommendation.ipynb",
+      "executed_code_cells": 5,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/13_routing.ipynb",
+      "executed_code_cells": 6,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/14_certificates.ipynb",
+      "executed_code_cells": 5,
+      "all_executed": true
+    }
+  ]
+}

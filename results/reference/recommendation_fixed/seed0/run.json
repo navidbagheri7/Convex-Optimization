@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "config": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "rank": 32,
+    "lambda": 0.01,
+    "bias_penalty": 0.03,
+    "epochs": 80,
+    "batch_size": 512,
+    "validation_fraction": 0.2,
+    "split_seed": 314159,
+    "learning_rates": {
+      "sgd": [
+        1.0,
+        5.0
+      ],
+      "adam": [
+        0.003,
+        0.01
+      ]
+    },
+    "seed": 0,
+    "device": "cuda:0",
+    "quick": false,
+    "source_data_sha256": {
+      "u1.base": "ce253ec86c448b44fb3ba9a30d12dcfc2e9210cbde71efada3730c22e9ac212a",
+      "u1.test": "18c6014a4b2c7324f250a63f8904a7b16b2b19f911129e346141507b0cbac950",
+      "u.data": "06416e597f82b7342361e41163890c81036900f418ad91315590814211dca490",
+      "README": "4883b8cf340ed0059971b33f56ad3adc88a40792108ebca3d24aafc4c82e8b52"
+    }
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "cvxpy": "1.7.5",
+    "clarabel": "0.11.1",
+    "torch": "2.7.1+cu128",
+    "ortools": "9.14.6206"
+  },
+  "source_sha256": {
+    "recommendation.py": "7fe2599059abab5fc5df8c0a4351131afcb1a8730721ce242ff60ba46a6cd984"
+  },
+  "elapsed_seconds": 96.12058088555932
+}

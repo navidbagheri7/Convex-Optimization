@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "config": {
+    "instance": "ch150 first12 nodes",
+    "seconds": 30
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "cvxpy": "1.7.5",
+    "clarabel": "0.11.1",
+    "torch": "2.7.1+cu128",
+    "ortools": "9.14.6206"
+  },
+  "source_sha256": {
+    "exact.py": "b9ec5833c5ccb4a5b88bef289f9caf09a3680c8c44f50fd563079d011de06938",
+    "routing.py": "37b009123ffab0d81d385e713fcb45aaee293510348d9594f78bfb1782162502"
+  },
+  "elapsed_seconds": 0.7953145625069737
+}

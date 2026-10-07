@@ -1,0 +1,21 @@
+{
+  "reference": {
+    "solver": "CLARABEL",
+    "status": "optimal",
+    "objective": 192.49999999308372,
+    "solver_seconds": 0.000119075
+  },
+  "highs_objective": 192.5,
+  "solver_difference": 6.916280881341663e-09,
+  "duality_gap": 0.0,
+  "resource_violation": 0.0,
+  "resource_shadow_prices": [
+    0.0,
+    0.0,
+    0.03125000000000005,
+    0.90625,
+    0.71875
+  ],
+  "first_resource_finite_difference": 0.0,
+  "scope": "Concave piecewise-linear revenue; resource duals are local marginal values, not a guarantee for arbitrary capacity changes."
+}

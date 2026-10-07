@@ -1,0 +1,65 @@
+{
+  "rows": [
+    {
+      "length": 7542,
+      "edge_work": 9999948,
+      "objective_evaluations": 8125,
+      "children": 1282,
+      "elapsed_seconds": 3.850201901048422,
+      "method": "ga_ox_reverse_2opt",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 0.0
+    },
+    {
+      "length": 7542,
+      "edge_work": 9999946,
+      "objective_evaluations": 7398,
+      "children": 1394,
+      "elapsed_seconds": 3.814539398998022,
+      "method": "ga_cx_reverse_2opt",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 0.0
+    },
+    {
+      "length": 7542,
+      "edge_work": 9999946,
+      "objective_evaluations": 7288,
+      "children": 1351,
+      "elapsed_seconds": 3.79043429158628,
+      "method": "ga_ox_reverse_2opt",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 0.0
+    },
+    {
+      "length": 7542,
+      "edge_work": 9999946,
+      "objective_evaluations": 23821,
+      "children": 1142,
+      "elapsed_seconds": 3.8003635117784142,
+      "method": "ga_cx_reverse_2opt",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 0.0
+    },
+    {
+      "length": 7542,
+      "edge_work": 9999946,
+      "objective_evaluations": 10664,
+      "children": 1107,
+      "elapsed_seconds": 3.736762481741607,
+      "method": "ga_ox_reverse_2opt",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 0.0
+    },
+    {
+      "length": 7542,
+      "edge_work": 9999946,
+      "objective_evaluations": 9765,
+      "children": 1343,
+      "elapsed_seconds": 3.845410701818764,
+      "method": "ga_cx_reverse_2opt",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 0.0
+    }
+  ],
+  "scope": "Separate memetic GA extension:24 nearest-neighbor / perturbed / two-pass2opt initial members, tournament3, OX or CX, reversal mutation0.3, two2opt passes per child, worst replacement and explicit20-child immigrant. Same10M counted distance-edge budget including local improvement. This is not the pure original GA comparison."
+}

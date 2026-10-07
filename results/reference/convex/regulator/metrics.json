@@ -1,0 +1,65 @@
+{
+  "rows": [
+    {
+      "objective": "frobenius",
+      "clarabel": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 0.9270919800167803,
+        "solver_seconds": 0.004563885
+      },
+      "independent_reference_objective": 0.9270919800167831,
+      "reference_type": "independent SVD least-energy solution",
+      "objective_difference": 2.7755575615628914e-15,
+      "forward_simulation_terminal_residual": 9.25252712988267e-15,
+      "energy": 0.8594995394114344,
+      "max_action_norm": 0.17914087440869725
+    },
+    {
+      "objective": "group_sum",
+      "clarabel": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 5.996853409199444,
+        "solver_seconds": 0.008103456
+      },
+      "independent_reference_objective": 5.996853677603489,
+      "reference_type": "SCS reference on identical declared cone model",
+      "objective_difference": 2.684040447675784e-07,
+      "forward_simulation_terminal_residual": 3.1797021535422264e-11,
+      "energy": 16.917586844381233,
+      "max_action_norm": 3.8297399190441737
+    },
+    {
+      "objective": "group_peak",
+      "clarabel": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 0.11047020796738659,
+        "solver_seconds": 0.008825861
+      },
+      "independent_reference_objective": 0.11047189836927841,
+      "reference_type": "SCS reference on identical declared cone model",
+      "objective_difference": 1.6904018918240116e-06,
+      "forward_simulation_terminal_residual": 1.6302931227230033e-14,
+      "energy": 1.2203653285006508,
+      "max_action_norm": 0.11047020796738659
+    },
+    {
+      "objective": "element_l1",
+      "clarabel": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 7.044288821538106,
+        "solver_seconds": 0.008263411
+      },
+      "independent_reference_objective": 7.044288807873996,
+      "reference_type": "independent terminal-map HiGHS LP",
+      "objective_difference": 1.3664109843603e-08,
+      "forward_simulation_terminal_residual": 1.2094492074510299e-14,
+      "energy": 30.384397301944745,
+      "max_action_norm": 5.260187736188045
+    }
+  ],
+  "scope": "Original x0=ones, xT=0, horizon100; four different norms. Squared energy shares the Frobenius minimizer but changes objective values and dual scaling. Nonunique norm optima are compared by feasibility and objective, not coefficient identity."
+}

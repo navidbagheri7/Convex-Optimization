@@ -1,0 +1,140 @@
+{
+  "rows": [
+    {
+      "objective": 75.43924170581003,
+      "kkt_residual": 9.543690282498574e-08,
+      "iterations": 19,
+      "rho": 0,
+      "oracle": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 1.3081988825547342e-09,
+        "solver_seconds": 0.001226717,
+        "owned_convention_objective": 75.4392417071181
+      },
+      "objective_difference_to_oracle": -1.3080665439701988e-09,
+      "validation": {
+        "strict_nll": 92.2052355856543,
+        "strict_nll_infinite": false,
+        "declared_predictive_floor_nll": 92.2052355856543,
+        "predictive_count_floor": 1e-06
+      }
+    },
+    {
+      "objective": 75.53960334687562,
+      "kkt_residual": 7.62092273731696e-08,
+      "iterations": 21,
+      "rho": 0.01,
+      "oracle": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 0.10036166818572698,
+        "solver_seconds": 0.001458191,
+        "owned_convention_objective": 75.53960337399563
+      },
+      "objective_difference_to_oracle": -2.712000934934622e-08,
+      "validation": {
+        "strict_nll": 91.98685705929836,
+        "strict_nll_infinite": false,
+        "declared_predictive_floor_nll": 91.98685705929836,
+        "predictive_count_floor": 1e-06
+      }
+    },
+    {
+      "objective": 76.34947567798417,
+      "kkt_residual": 1.5052135093895913e-08,
+      "iterations": 18,
+      "rho": 0.1,
+      "oracle": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 0.9102339971185552,
+        "solver_seconds": 0.001180578,
+        "owned_convention_objective": 76.34947570292846
+      },
+      "objective_difference_to_oracle": -2.4944284859884647e-08,
+      "validation": {
+        "strict_nll": 90.32327028348257,
+        "strict_nll_infinite": false,
+        "declared_predictive_floor_nll": 90.32327028348257,
+        "predictive_count_floor": 1e-06
+      }
+    },
+    {
+      "objective": 80.88407201504876,
+      "kkt_residual": 9.980265502917973e-08,
+      "iterations": 60,
+      "rho": 1,
+      "oracle": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 5.444830320670349,
+        "solver_seconds": 0.001000231,
+        "owned_convention_objective": 80.88407202648025
+      },
+      "objective_difference_to_oracle": -1.1431495750002796e-08,
+      "validation": {
+        "strict_nll": 83.34600561874527,
+        "strict_nll_infinite": false,
+        "declared_predictive_floor_nll": 83.34600561874527,
+        "predictive_count_floor": 1e-06
+      }
+    },
+    {
+      "objective": 93.95589926361698,
+      "kkt_residual": 5.946142067614346e-08,
+      "iterations": 282,
+      "rho": 10,
+      "oracle": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 18.516657560580533,
+        "solver_seconds": 0.000844144,
+        "owned_convention_objective": 93.95589926639045
+      },
+      "objective_difference_to_oracle": -2.773461460492399e-09,
+      "validation": {
+        "strict_nll": 81.60142843310162,
+        "strict_nll_infinite": false,
+        "declared_predictive_floor_nll": 81.60142843310162,
+        "predictive_count_floor": 1e-06
+      }
+    },
+    {
+      "objective": 117.51843319692554,
+      "kkt_residual": 7.366758136839735e-08,
+      "iterations": 1279,
+      "rho": 100,
+      "oracle": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 42.07919149198016,
+        "solver_seconds": 0.000919109,
+        "owned_convention_objective": 117.51843319779007
+      },
+      "objective_difference_to_oracle": -8.645315574540291e-10,
+      "validation": {
+        "strict_nll": 109.4377757560174,
+        "strict_nll_infinite": false,
+        "declared_predictive_floor_nll": 109.4377757560174,
+        "predictive_count_floor": 1e-06
+      }
+    }
+  ],
+  "selected": {
+    "rho": 10,
+    "validation": {
+      "strict_nll": 81.60142843310162,
+      "strict_nll_infinite": false,
+      "declared_predictive_floor_nll": 81.60142843310162,
+      "predictive_count_floor": 1e-06
+    },
+    "independent_test": {
+      "strict_nll": 78.77017390305468,
+      "strict_nll_infinite": false,
+      "declared_predictive_floor_nll": 78.77017390305468,
+      "predictive_count_floor": 1e-06
+    }
+  },
+  "scope": "Nonnegative cyclic Poisson rates, exact likelihood proximal step and accelerated quadratic smoothing. KKT uses projected gradient mapping, including zero-count active boundaries. Original second day is validation only; synthetic task reserves an independent test day. Fixed rho grid selected by validation likelihood using an explicit1e-6 predictive count floor; strict infinite likelihood is retained separately."
+}

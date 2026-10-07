@@ -1,0 +1,62 @@
+{
+  "rows": [
+    {
+      "domain": "simplex",
+      "reference": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 2.9661025094982438e-21,
+        "solver_seconds": 7.3239e-05
+      },
+      "witness": [
+        0.29999999998124854,
+        0.399999999948868
+      ],
+      "maximum_violation": 0.0
+    },
+    {
+      "domain": "nonnegative_order",
+      "reference": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 1.419720482120534e-21,
+        "solver_seconds": 4.9475e-05
+      },
+      "witness": [
+        1.0000000000373959,
+        0.4999999999953881
+      ],
+      "maximum_violation": 0.0
+    },
+    {
+      "domain": "perspective_quadratic",
+      "reference": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 4.426478385922941e-23,
+        "solver_seconds": 9.4663e-05
+      },
+      "witness": [
+        0.9999999999988284,
+        0.9999999999934508
+      ],
+      "maximum_violation": 0.0
+    },
+    {
+      "domain": "concave_sqrt_hypograph",
+      "reference": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 1.180975043426794e-22,
+        "solver_seconds": 9.2663e-05
+      },
+      "witness": [
+        0.9999999999986605,
+        -5.997745135156002e-12,
+        0.5000000000089627
+      ],
+      "maximum_violation": 0.0
+    }
+  ],
+  "scope": "Authored DCP-domain witnesses for the supplied transformed forms. Positive perspective denominator and nonnegative square-root radicand are part of the domains. This does not assert a unique inverse transformation to an ambiguously specified original nonconvex program."
+}

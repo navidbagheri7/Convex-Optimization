@@ -1,0 +1,51 @@
+{
+  "rows": [
+    {
+      "iterations": 1759,
+      "certificate": {
+        "objective": 3.2292530472515955,
+        "dual_objective": 3.229252948163654,
+        "gap": 9.908794140756072e-08,
+        "dual_feasibility": -1.500466417780899e-13
+      },
+      "primal_residual": null,
+      "dual_residual": null,
+      "method": "ista",
+      "objective_difference_to_oracle": -2.7760815868305144e-10
+    },
+    {
+      "iterations": 1425,
+      "certificate": {
+        "objective": 3.229253047251595,
+        "dual_objective": 3.2292529654150823,
+        "gap": 8.183651267756886e-08,
+        "dual_feasibility": -1.5001888620247428e-13
+      },
+      "primal_residual": null,
+      "dual_residual": null,
+      "method": "fista",
+      "objective_difference_to_oracle": -2.776086027722613e-10
+    },
+    {
+      "iterations": 151,
+      "certificate": {
+        "objective": 3.229253047251595,
+        "dual_objective": 3.2292529553812033,
+        "gap": 9.18703917385244e-08,
+        "dual_feasibility": -1.5001888620247428e-13
+      },
+      "primal_residual": 4.137444352117331e-09,
+      "dual_residual": 4.598867968272898e-09,
+      "method": "admm",
+      "objective_difference_to_oracle": -2.776086027722613e-10
+    }
+  ],
+  "oracle": {
+    "solver": "CLARABEL",
+    "status": "optimal",
+    "objective": 3.2292530475292036,
+    "solver_seconds": 0.169223852
+  },
+  "sklearn_objective": 3.2292530472515946,
+  "scope": "Owned ISTA/FISTA/ADMM use same convex objective, feasible dual bounds and stopping gap. sklearn alpha=lambda/n; no intercept. ADMM includes a Cholesky setup; iterations do not represent equal computational work."
+}

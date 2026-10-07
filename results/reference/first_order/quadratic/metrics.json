@@ -1,0 +1,113 @@
+{
+  "rows": [
+    {
+      "condition": 10,
+      "method": "gradient",
+      "iterations": 173,
+      "objective_gap": 4.973605753384639e-17,
+      "gradient_norm": 9.9931752897109e-09,
+      "elapsed_seconds": 0.00517681147903204,
+      "reached_tolerance": true
+    },
+    {
+      "condition": 10,
+      "method": "accelerated",
+      "iterations": 56,
+      "objective_gap": 3.7312442459627985e-17,
+      "gradient_norm": 8.648115348443177e-09,
+      "elapsed_seconds": 0.0015896139666438103,
+      "reached_tolerance": true
+    },
+    {
+      "condition": 10,
+      "method": "conjugate_gradient",
+      "iterations": 28,
+      "objective_gap": 5.758863388062071e-18,
+      "gradient_norm": 5.479529115714397e-09,
+      "elapsed_seconds": 0.000943722203373909,
+      "reached_tolerance": true
+    },
+    {
+      "condition": 10,
+      "method": "newton",
+      "iterations": 1,
+      "objective_gap": 1.2794823182649516e-29,
+      "gradient_norm": 7.091535990731451e-15,
+      "elapsed_seconds": 0.0001249471679329872,
+      "reached_tolerance": true
+    },
+    {
+      "condition": 1000,
+      "method": "gradient",
+      "iterations": 4000,
+      "objective_gap": 0.00012655121583114338,
+      "gradient_norm": 0.016299175734659808,
+      "elapsed_seconds": 0.07997036911547184,
+      "reached_tolerance": false
+    },
+    {
+      "condition": 1000,
+      "method": "accelerated",
+      "iterations": 664,
+      "objective_gap": 4.664507956925489e-17,
+      "gradient_norm": 9.726038176754213e-09,
+      "elapsed_seconds": 0.011167746037244797,
+      "reached_tolerance": true
+    },
+    {
+      "condition": 1000,
+      "method": "conjugate_gradient",
+      "iterations": 76,
+      "objective_gap": 1.550195813617326e-20,
+      "gradient_norm": 1.1131470771977045e-09,
+      "elapsed_seconds": 0.0014773206785321236,
+      "reached_tolerance": true
+    },
+    {
+      "condition": 1000,
+      "method": "newton",
+      "iterations": 1,
+      "objective_gap": 1.6181045463233106e-26,
+      "gradient_norm": 6.36401995304626e-13,
+      "elapsed_seconds": 7.464177906513214e-05,
+      "reached_tolerance": true
+    },
+    {
+      "condition": 100000,
+      "method": "gradient",
+      "iterations": 4000,
+      "objective_gap": 7.893683701360379,
+      "gradient_norm": 16.737532303288084,
+      "elapsed_seconds": 0.06678976491093636,
+      "reached_tolerance": false
+    },
+    {
+      "condition": 100000,
+      "method": "accelerated",
+      "iterations": 4000,
+      "objective_gap": 6.812590761737738e-10,
+      "gradient_norm": 7.408559516539453e-05,
+      "elapsed_seconds": 0.06614547315984964,
+      "reached_tolerance": false
+    },
+    {
+      "condition": 100000,
+      "method": "conjugate_gradient",
+      "iterations": 162,
+      "objective_gap": 6.295369698498519e-20,
+      "gradient_norm": 6.936501398293706e-09,
+      "elapsed_seconds": 0.003126148134469986,
+      "reached_tolerance": true
+    },
+    {
+      "condition": 100000,
+      "method": "newton",
+      "iterations": 1,
+      "objective_gap": 3.2461066983392765e-23,
+      "gradient_norm": 5.17793314019938e-11,
+      "elapsed_seconds": 7.559079676866531e-05,
+      "reached_tolerance": true
+    }
+  ],
+  "scope": "Strongly convex quadratics with known optimum. Gradient methods know spectral bounds; conjugate gradient accesses Hessian products and Newton solves with the full Hessian. These methods have different information and per-step costs. Slow or budget-limited convergence is retained."
+}

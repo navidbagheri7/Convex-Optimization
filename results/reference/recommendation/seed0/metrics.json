@@ -1,0 +1,287 @@
+{
+  "rows": [
+    {
+      "method": "global_mean",
+      "seed": 0,
+      "selected_learning_rate": null,
+      "selected_lambda": 0.01,
+      "candidates": [
+        {
+          "learning_rate": null,
+          "penalty": 0.01,
+          "selected_epoch": 0
+        }
+      ],
+      "selected_epoch": 0,
+      "validation_rmse": 1.1160929340785202,
+      "candidate_validation_rmse": [
+        1.1160929340785202
+      ],
+      "test": {
+        "rmse": 1.1536733994073018,
+        "mae": 0.967999375,
+        "unclipped_rmse": 1.1536733994073018,
+        "conditional_user_bootstrap_rmse_ci95": [
+          1.112213649220483,
+          1.2026582744234091
+        ],
+        "warm": {
+          "n_ratings": 19948,
+          "rmse": 1.151251831035026
+        },
+        "cold_item": {
+          "n_ratings": 52,
+          "rmse": 1.8633637968531738
+        }
+      },
+      "checkpoint_sha256": "e61c559baa77f062df05072adaa1a04f536be13034d3628246bbd199abe4fe57",
+      "selected_training_objective": 0.6262742187499999
+    },
+    {
+      "method": "bias_only",
+      "seed": 0,
+      "selected_learning_rate": null,
+      "selected_lambda": 0.01,
+      "candidates": [
+        {
+          "learning_rate": null,
+          "penalty": 0.01,
+          "selected_epoch": 36
+        }
+      ],
+      "selected_epoch": 36,
+      "validation_rmse": 0.9395274925257686,
+      "candidate_validation_rmse": [
+        0.9395274925257686
+      ],
+      "test": {
+        "rmse": 0.9581608408217425,
+        "mae": 0.7548430342492145,
+        "unclipped_rmse": 0.9588468359591933,
+        "conditional_user_bootstrap_rmse_ci95": [
+          0.9347394612006621,
+          0.9824182292989897
+        ],
+        "warm": {
+          "n_ratings": 19948,
+          "rmse": 0.9572350797699994
+        },
+        "cold_item": {
+          "n_ratings": 52,
+          "rmse": 1.2642383442217182
+        }
+      },
+      "checkpoint_sha256": "86cea397fee97edac85c68eb91a942710eda1bc6615268aa59a2f8afdb7fe32c",
+      "selected_training_objective": 0.4159535725766788
+    },
+    {
+      "method": "als",
+      "seed": 0,
+      "selected_learning_rate": null,
+      "selected_lambda": 0.1,
+      "candidates": [
+        {
+          "learning_rate": null,
+          "penalty": 0.01,
+          "selected_epoch": 0
+        },
+        {
+          "learning_rate": null,
+          "penalty": 0.03,
+          "selected_epoch": 1
+        },
+        {
+          "learning_rate": null,
+          "penalty": 0.1,
+          "selected_epoch": 6
+        }
+      ],
+      "selected_epoch": 6,
+      "validation_rmse": 0.9244993142829084,
+      "candidate_validation_rmse": [
+        1.1160304474948448,
+        0.9894239407305813,
+        0.9244993142829084
+      ],
+      "test": {
+        "rmse": 0.9450664324378759,
+        "mae": 0.7407133253965782,
+        "unclipped_rmse": 0.9458049225382734,
+        "conditional_user_bootstrap_rmse_ci95": [
+          0.9210491110536834,
+          0.9703175082354709
+        ],
+        "warm": {
+          "n_ratings": 19948,
+          "rmse": 0.9437942155686277
+        },
+        "cold_item": {
+          "n_ratings": 52,
+          "rmse": 1.3472170654208417
+        }
+      },
+      "checkpoint_sha256": "e4e186f7eedefb952fcec3a051c8839461d3d497fae16a12a8574a3368467781",
+      "selected_training_objective": 0.3320024693764715
+    },
+    {
+      "method": "sgd",
+      "seed": 0,
+      "selected_learning_rate": 1.0,
+      "selected_lambda": 0.1,
+      "candidates": [
+        {
+          "learning_rate": 0.2,
+          "penalty": 0.01,
+          "selected_epoch": 38
+        },
+        {
+          "learning_rate": 1.0,
+          "penalty": 0.01,
+          "selected_epoch": 8
+        },
+        {
+          "learning_rate": 0.2,
+          "penalty": 0.03,
+          "selected_epoch": 48
+        },
+        {
+          "learning_rate": 1.0,
+          "penalty": 0.03,
+          "selected_epoch": 11
+        },
+        {
+          "learning_rate": 0.2,
+          "penalty": 0.1,
+          "selected_epoch": 80
+        },
+        {
+          "learning_rate": 1.0,
+          "penalty": 0.1,
+          "selected_epoch": 25
+        }
+      ],
+      "selected_epoch": 25,
+      "validation_rmse": 0.9152189111158143,
+      "candidate_validation_rmse": [
+        0.9296436913726192,
+        0.9305904902873776,
+        0.9246729687077327,
+        0.9255876526752288,
+        0.9190721687180691,
+        0.9152189111158143
+      ],
+      "test": {
+        "rmse": 0.9338444955989305,
+        "mae": 0.7335115518368355,
+        "unclipped_rmse": 0.9343733096564221,
+        "conditional_user_bootstrap_rmse_ci95": [
+          0.9102140295237736,
+          0.9583056468958583
+        ],
+        "warm": {
+          "n_ratings": 19948,
+          "rmse": 0.9329362508153773
+        },
+        "cold_item": {
+          "n_ratings": 52,
+          "rmse": 1.2338894103279316
+        }
+      },
+      "checkpoint_sha256": "04f0330ec28f06317ab615c41fa476390e62e99a2b618a309839b09e908be24e",
+      "selected_training_objective": 0.35890132716420303
+    },
+    {
+      "method": "adam",
+      "seed": 0,
+      "selected_learning_rate": 0.003,
+      "selected_lambda": 0.1,
+      "candidates": [
+        {
+          "learning_rate": 0.0003,
+          "penalty": 0.01,
+          "selected_epoch": 40
+        },
+        {
+          "learning_rate": 0.001,
+          "penalty": 0.01,
+          "selected_epoch": 11
+        },
+        {
+          "learning_rate": 0.003,
+          "penalty": 0.01,
+          "selected_epoch": 4
+        },
+        {
+          "learning_rate": 0.0003,
+          "penalty": 0.03,
+          "selected_epoch": 46
+        },
+        {
+          "learning_rate": 0.001,
+          "penalty": 0.03,
+          "selected_epoch": 13
+        },
+        {
+          "learning_rate": 0.003,
+          "penalty": 0.03,
+          "selected_epoch": 5
+        },
+        {
+          "learning_rate": 0.0003,
+          "penalty": 0.1,
+          "selected_epoch": 80
+        },
+        {
+          "learning_rate": 0.001,
+          "penalty": 0.1,
+          "selected_epoch": 28
+        },
+        {
+          "learning_rate": 0.003,
+          "penalty": 0.1,
+          "selected_epoch": 9
+        }
+      ],
+      "selected_epoch": 9,
+      "validation_rmse": 0.9142398886032593,
+      "candidate_validation_rmse": [
+        0.9391273569652357,
+        0.9399317322001088,
+        0.9369975302638738,
+        0.9313599193825782,
+        0.932175598900232,
+        0.9300064871342396,
+        0.9150024814407414,
+        0.9153703049560038,
+        0.9142398886032593
+      ],
+      "test": {
+        "rmse": 0.9368641326842334,
+        "mae": 0.7405948210886205,
+        "unclipped_rmse": 0.9368912658337518,
+        "conditional_user_bootstrap_rmse_ci95": [
+          0.9132945954479734,
+          0.9604674671699029
+        ],
+        "warm": {
+          "n_ratings": 19948,
+          "rmse": 0.9354385506140003
+        },
+        "cold_item": {
+          "n_ratings": 52,
+          "rmse": 1.3789961327125655
+        }
+      },
+      "checkpoint_sha256": "309ff30cd9a7eff5cbd17bbec2f391bc6bbd65d3d62eda1da802fbfdae5bff83",
+      "selected_training_objective": 0.3628113556103759
+    }
+  ],
+  "data_roles": {
+    "fit": 64000,
+    "validation": 16000,
+    "test": 20000,
+    "users": 943,
+    "items": 1682
+  },
+  "protocol": "Official u1.base/u1.test, validation reserved inside base, fixed split across fitting seeds. Same degree-scaled regularized objective for ALS/SGD/Adam, same rank and common preset lambda grid; method-specific preset learning-rate grids, all candidate validation scores and extra search work disclosed. Selected lambda can differ across methods; direct optimization curves must be compared at a shared lambda. Validation-only epoch/rate selection before each final test evaluation. NumPy float64 inference on exported factors. Ratings bounded to1..5 for validation/test, unclipped RMSE also reported. Public arrays aggregate errors per user, excluding raw ratings. Conditional bootstrap resamples users; it is distinct from three-fit training variability."
+}

@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "config": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instances": [
+      "berlin52",
+      "ch150"
+    ],
+    "edge_budget": 10000000,
+    "bound_iterations": 2000,
+    "ortools_seconds": 5,
+    "methods": [
+      "nn_2opt",
+      "sa_swap",
+      "sa_reverse",
+      "sa_insert",
+      "ga_ox_swap",
+      "ga_ox_reverse",
+      "ga_cx_swap",
+      "ga_cx_reverse",
+      "as",
+      "acs",
+      "acs_2opt"
+    ],
+    "instance": "ch150"
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "cvxpy": "1.7.5",
+    "clarabel": "0.11.1",
+    "torch": "2.7.1+cu128",
+    "ortools": "9.14.6206"
+  },
+  "source_sha256": {
+    "memetic.py": "594a2e323435ef95b7d959cb2d6e9f28faa180797f382746e970bd63642c34a8",
+    "routing.py": "37b009123ffab0d81d385e713fcb45aaee293510348d9594f78bfb1782162502"
+  },
+  "elapsed_seconds": 20.490908255800605
+}

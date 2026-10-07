@@ -1,0 +1,159 @@
+{
+  "rows": [
+    {
+      "method": "global_mean",
+      "seed": 1,
+      "selected_learning_rate": null,
+      "selected_epoch": 0,
+      "validation_rmse": 1.1160929340785202,
+      "candidate_validation_rmse": [
+        1.1160929340785202
+      ],
+      "test": {
+        "rmse": 1.1536733994073018,
+        "mae": 0.967999375,
+        "unclipped_rmse": 1.1536733994073018,
+        "conditional_user_bootstrap_rmse_ci95": [
+          1.1106569553197967,
+          1.2048104467779912
+        ],
+        "warm": {
+          "n_ratings": 19948,
+          "rmse": 1.151251831035026
+        },
+        "cold_item": {
+          "n_ratings": 52,
+          "rmse": 1.8633637968531738
+        }
+      },
+      "checkpoint_sha256": "e61c559baa77f062df05072adaa1a04f536be13034d3628246bbd199abe4fe57",
+      "selected_training_objective": 0.6262742187499999
+    },
+    {
+      "method": "bias_only",
+      "seed": 1,
+      "selected_learning_rate": null,
+      "selected_epoch": 36,
+      "validation_rmse": 0.9395274925257686,
+      "candidate_validation_rmse": [
+        0.9395274925257686
+      ],
+      "test": {
+        "rmse": 0.9581608408217425,
+        "mae": 0.7548430342492145,
+        "unclipped_rmse": 0.9588468359591933,
+        "conditional_user_bootstrap_rmse_ci95": [
+          0.932995276648152,
+          0.9841905350355137
+        ],
+        "warm": {
+          "n_ratings": 19948,
+          "rmse": 0.9572350797699994
+        },
+        "cold_item": {
+          "n_ratings": 52,
+          "rmse": 1.2642383442217182
+        }
+      },
+      "checkpoint_sha256": "86cea397fee97edac85c68eb91a942710eda1bc6615268aa59a2f8afdb7fe32c",
+      "selected_training_objective": 0.4159535725766788
+    },
+    {
+      "method": "als",
+      "seed": 1,
+      "selected_learning_rate": null,
+      "selected_epoch": 0,
+      "validation_rmse": 1.1160708044225587,
+      "candidate_validation_rmse": [
+        1.1160708044225587
+      ],
+      "test": {
+        "rmse": 1.153734846412539,
+        "mae": 0.9679731990509884,
+        "unclipped_rmse": 1.153734846412539,
+        "conditional_user_bootstrap_rmse_ci95": [
+          1.1106809693455364,
+          1.2049026345360863
+        ],
+        "warm": {
+          "n_ratings": 19948,
+          "rmse": 1.151313567793617
+        },
+        "cold_item": {
+          "n_ratings": 52,
+          "rmse": 1.8633637968531738
+        }
+      },
+      "checkpoint_sha256": "1e0d7419fd366354aba76999b2daafededf09bcb7dc620443f6eba1277bfcbfa",
+      "selected_training_objective": 0.6272284966981767
+    },
+    {
+      "method": "sgd",
+      "seed": 1,
+      "selected_learning_rate": 1.0,
+      "selected_epoch": 8,
+      "validation_rmse": 0.9313051054140165,
+      "candidate_validation_rmse": [
+        0.9313051054140165,
+        0.9563744584446118
+      ],
+      "test": {
+        "rmse": 0.9495683938009493,
+        "mae": 0.7479597084794893,
+        "unclipped_rmse": 0.9500354316410585,
+        "conditional_user_bootstrap_rmse_ci95": [
+          0.9249415624760051,
+          0.9760543225766902
+        ],
+        "warm": {
+          "n_ratings": 19948,
+          "rmse": 0.9489580682360435
+        },
+        "cold_item": {
+          "n_ratings": 52,
+          "rmse": 1.160251119226746
+        }
+      },
+      "checkpoint_sha256": "90f1076caf00417e671bcd647f35c8d3f2948d523280d682f03194093790f84b",
+      "selected_training_objective": 0.3263949572806937
+    },
+    {
+      "method": "adam",
+      "seed": 1,
+      "selected_learning_rate": 0.003,
+      "selected_epoch": 4,
+      "validation_rmse": 0.9397994523280886,
+      "candidate_validation_rmse": [
+        0.9397994523280886,
+        0.9459255979255593
+      ],
+      "test": {
+        "rmse": 0.9633611377729052,
+        "mae": 0.761301425177042,
+        "unclipped_rmse": 0.9634177952037646,
+        "conditional_user_bootstrap_rmse_ci95": [
+          0.9341213166100268,
+          0.9925245789639107
+        ],
+        "warm": {
+          "n_ratings": 19948,
+          "rmse": 0.961710897868497
+        },
+        "cold_item": {
+          "n_ratings": 52,
+          "rmse": 1.465177739924352
+        }
+      },
+      "checkpoint_sha256": "2e15a022187d62810e04c1ef4ec81a2586271acab988cfb1cf44e0c00e7e7d90",
+      "selected_training_objective": 0.28253014605971405
+    }
+  ],
+  "data_roles": {
+    "fit": 64000,
+    "validation": 16000,
+    "test": 20000,
+    "users": 943,
+    "items": 1682
+  },
+  "protocol": "Official u1.base/u1.test, validation reserved inside base, fixed split across fitting seeds. Same degree-scaled regularized objective for ALS/SGD/Adam, same rank/lambda; two preset learning rates for stochastic methods, extra search work disclosed. Validation-only epoch/rate selection before each final test evaluation. NumPy float64 inference on exported factors. Ratings bounded to1..5 for validation/test, unclipped RMSE also reported. Public arrays aggregate errors per user, excluding raw ratings. Conditional bootstrap resamples users; it is distinct from three-fit training variability."
+}

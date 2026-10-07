@@ -1,0 +1,47 @@
+{
+  "status": "complete",
+  "config": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instances": [
+      "berlin52",
+      "ch150"
+    ],
+    "edge_budget": 10000000,
+    "bound_iterations": 2000,
+    "ortools_seconds": 5,
+    "methods": [
+      "nn_2opt",
+      "sa_swap",
+      "sa_reverse",
+      "sa_insert",
+      "ga_ox_swap",
+      "ga_ox_reverse",
+      "ga_cx_swap",
+      "ga_cx_reverse",
+      "as",
+      "acs",
+      "acs_2opt"
+    ],
+    "instance": "berlin52",
+    "quick": false,
+    "instance_sha256": "8496a5838133e3c3eb25a9fa8893b1ac302593fc8dc325350643a0cabd8abadc"
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "cvxpy": "1.7.5",
+    "clarabel": "0.11.1",
+    "torch": "2.7.1+cu128",
+    "ortools": "9.14.6206"
+  },
+  "source_sha256": {
+    "routing_study.py": "b8fe3672a31608142d9f8330636544e394e85e16e5f2a6b5a19e555bb404f8ee",
+    "routing.py": "37b009123ffab0d81d385e713fcb45aaee293510348d9594f78bfb1782162502"
+  },
+  "elapsed_seconds": 434.32035705819726
+}

@@ -1,0 +1,146 @@
+{
+  "rows": [
+    {
+      "gamma": 0.1,
+      "risk_model": "mean_covariance",
+      "reference": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 1.434706055651652,
+        "solver_seconds": 0.000311432
+      },
+      "primal_objective": 1.4347060566077001,
+      "dual_objective": 1.4347060566090157,
+      "duality_gap": 1.3156142841808105e-12,
+      "budget_residual": 2.6645352591003757e-15,
+      "stationarity_residual": 7.511384136904553e-08,
+      "scenario_dual_weights": [
+        0.1
+      ],
+      "mean_return": 2.869409365104083,
+      "worst_variance_across_all_scenarios": 20.653023860884016,
+      "gross_exposure": 83.94614588078221
+    },
+    {
+      "gamma": 0.1,
+      "risk_model": "worst_scenario",
+      "reference": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 1.2188077643148107,
+        "solver_seconds": 0.00152754
+      },
+      "primal_objective": 1.2188077732022675,
+      "dual_objective": 1.2188077864818712,
+      "duality_gap": 1.3279603638949311e-08,
+      "budget_residual": 1.7763568394002505e-15,
+      "stationarity_residual": 3.895342094273335e-06,
+      "scenario_dual_weights": [
+        0.02923162946054675,
+        8.917535488283969e-10,
+        8.559307718454717e-10,
+        0.04658039553752398,
+        0.014230470740451974,
+        0.00995750251379298
+      ],
+      "mean_return": 2.4375820471310865,
+      "worst_variance_across_all_scenarios": 12.187742739288188,
+      "gross_exposure": 70.6760557381759
+    },
+    {
+      "gamma": 1.0,
+      "risk_model": "mean_covariance",
+      "reference": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 0.14347060546402013,
+        "solver_seconds": 0.000212539
+      },
+      "primal_objective": 0.14347060566078232,
+      "dual_objective": 0.14347060566090164,
+      "duality_gap": 1.193212195715887e-13,
+      "budget_residual": 4.440892098500626e-16,
+      "stationarity_residual": 7.148006989088351e-08,
+      "scenario_dual_weights": [
+        1.0
+      ],
+      "mean_return": 0.28694147283624727,
+      "worst_variance_across_all_scenarios": 0.20653101066842436,
+      "gross_exposure": 7.9540108470948745
+    },
+    {
+      "gamma": 1.0,
+      "risk_model": "worst_scenario",
+      "reference": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 0.12188077755902858,
+        "solver_seconds": 0.001437969
+      },
+      "primal_objective": 0.1218807777750239,
+      "dual_objective": 0.12188077813287858,
+      "duality_gap": 3.5785467644711133e-10,
+      "budget_residual": 2.220446049250313e-16,
+      "stationarity_residual": 5.594837563169253e-07,
+      "scenario_dual_weights": [
+        0.29231846860235894,
+        1.871222026691972e-09,
+        2.073854165609177e-09,
+        0.46580477300652157,
+        0.14230209351239997,
+        0.09957466093364355
+      ],
+      "mean_return": 0.24376142331617137,
+      "worst_variance_across_all_scenarios": 0.12188064554114747,
+      "gross_exposure": 7.017248577120277
+    },
+    {
+      "gamma": 10.0,
+      "risk_model": "mean_covariance",
+      "reference": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 0.014347060542985002,
+        "solver_seconds": 0.000193372
+      },
+      "primal_objective": 0.014347060566045662,
+      "dual_objective": 0.014347060566090157,
+      "duality_gap": 4.44956571588051e-14,
+      "budget_residual": 1.1102230246251565e-16,
+      "stationarity_residual": 1.3812528201762042e-07,
+      "scenario_dual_weights": [
+        10.0
+      ],
+      "mean_return": 0.02869407059815547,
+      "worst_variance_across_all_scenarios": 0.0020652990675645595,
+      "gross_exposure": 1.6953992262413486
+    },
+    {
+      "gamma": 10.0,
+      "risk_model": "worst_scenario",
+      "reference": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 0.012188077451869537,
+        "solver_seconds": 0.001155616
+      },
+      "primal_objective": 0.012188077559305675,
+      "dual_objective": 0.012188078020426768,
+      "duality_gap": 4.611210926985798e-10,
+      "budget_residual": 0.0,
+      "stationarity_residual": 2.4845724853547746e-06,
+      "scenario_dual_weights": [
+        2.9231537252275674,
+        3.0005015027292445e-07,
+        2.757033060719171e-07,
+        4.658112686734238,
+        1.422977339702586,
+        0.9957556725821536
+      ],
+      "mean_return": 0.024375431038719215,
+      "worst_variance_across_all_scenarios": 0.001218735347941354,
+      "gross_exposure": 1.6017045432885966
+    }
+  ],
+  "scope": "Original objective maximizes mean return minus gamma times worst scenario variance, with sum(weights)=1 and shorting allowed. Mean-covariance and gamma .1/10 are separate comparisons. The independently evaluated dual assumes a common riskless first asset and positive definite risky covariance mixture. These numerical course inputs are not out-of-sample investment performance."
+}

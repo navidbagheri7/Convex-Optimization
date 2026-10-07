@@ -1,0 +1,91 @@
+{
+  "speed": {
+    "source_sha256": "a50474a171d9e1c866cacfedde3506d71d029a3a5217012dd7b3abc2193e6c39",
+    "keys": [
+      "n",
+      "a",
+      "b",
+      "c",
+      "d",
+      "smin",
+      "smax",
+      "tau_min",
+      "tau_max"
+    ]
+  },
+  "regulator": {
+    "source_sha256": "617d9d34c9428d6d3c5c42b88e63c26cb38951eb4e3014a5f1df9e64e4902277",
+    "keys": [
+      "n",
+      "m",
+      "A",
+      "B",
+      "x_init",
+      "T"
+    ]
+  },
+  "blend": {
+    "source_sha256": "2b60f863693c98260c23e891963d7ebb7ee097192cfbac1250be9eb182f5f997",
+    "keys": [
+      "n",
+      "k",
+      "W",
+      "W_min",
+      "W_max",
+      "P",
+      "D",
+      "A",
+      "P_spec",
+      "D_spec",
+      "A_spec"
+    ]
+  },
+  "evacuation": {
+    "source_sha256": "40ddba5d58e9eaee16a096a238beb59869fb691658f36c440868b60ed8d8fa73",
+    "keys": [
+      "T",
+      "A",
+      "Q",
+      "F",
+      "q1",
+      "r",
+      "s",
+      "rtild",
+      "stild"
+    ],
+    "incidence_column_sums": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "portfolio": {
+    "source_sha256": "29d470c8db6fa4b3c14ceffe66c17cf47a04e1e3f8c4adcfa70eb1db74accadc",
+    "keys": [
+      "n",
+      "M",
+      "gamma",
+      "mu",
+      "Sigma_1",
+      "Sigma_2",
+      "Sigma_3",
+      "Sigma_4",
+      "Sigma_5",
+      "Sigma_6"
+    ],
+    "covariance_minimum_eigenvalues": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

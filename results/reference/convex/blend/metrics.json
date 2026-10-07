@@ -1,0 +1,62 @@
+{
+  "rows": [
+    {
+      "objective": "feasible",
+      "simplex_residual": 0.0,
+      "max_relative_spec_violation": 0.0,
+      "common_log_margin": 0.0,
+      "performance_upper_bounds": [
+        59.999999999999986,
+        9.999999999999998,
+        48.62541877135207
+      ],
+      "weights": [
+        0.06503671119536736,
+        0.3872660472121129,
+        0.0,
+        0.5476972415925198,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "objective": "min_power",
+      "simplex_residual": 0.0,
+      "max_relative_spec_violation": 2.220446049250313e-16,
+      "common_log_margin": -4.440892098500626e-16,
+      "performance_upper_bounds": [
+        59.540209036014474,
+        10.000000000000002,
+        48.684491926740925
+      ],
+      "weights": [
+        0.0,
+        0.5246178853647909,
+        0.0,
+        0.47538211463520913,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "objective": "max_common_log_margin",
+      "simplex_residual": 2.220446049250313e-16,
+      "max_relative_spec_violation": 0.0,
+      "common_log_margin": 0.0027547495294699686,
+      "performance_upper_bounds": [
+        59.834942478676616,
+        9.972490413112766,
+        48.90281361141362
+      ],
+      "weights": [
+        0.0,
+        0.5152549523399971,
+        0.0,
+        0.4847450476600031,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "scope": "Original feasibility uses geometric blends of six measured designs. Performance quantities are geometric upper bounds conditional on log-convex physical metrics, not independently measured predictions. Minimum power and common-log-margin are declared optimization extensions."
+}

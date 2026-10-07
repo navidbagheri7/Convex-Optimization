@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "terminal_evacuation_constraint": false,
+      "clarabel": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 6.589671916433441,
+        "solver_seconds": 0.010357728
+      },
+      "osqp": {
+        "solver": "OSQP",
+        "status": "optimal",
+        "objective": 6.589671953918878,
+        "solver_seconds": 0.019999593
+      },
+      "objective_difference": 3.748543697668083e-08,
+      "mass_conservation_residual": 2.2510882047299674e-12,
+      "dynamics_residual": 7.88133526082835e-14,
+      "capacity_violation": 2.1316282072803006e-14,
+      "terminal_unsafe_population": 6.701958073323551e-12
+    },
+    {
+      "terminal_evacuation_constraint": true,
+      "clarabel": {
+        "solver": "CLARABEL",
+        "status": "optimal",
+        "objective": 6.589671916543967,
+        "solver_seconds": 0.010621892
+      },
+      "osqp": {
+        "solver": "OSQP",
+        "status": "optimal",
+        "objective": 6.589671951051146,
+        "solver_seconds": 0.020053851000000004
+      },
+      "objective_difference": 3.4507179336173976e-08,
+      "mass_conservation_residual": 8.588463273895286e-12,
+      "dynamics_residual": 3.800976225183388e-13,
+      "capacity_violation": 4.5075054799781356e-14,
+      "terminal_unsafe_population": 1.3349123963828486e-12
+    }
+  ],
+  "scope": "Original risk minimization has no terminal evacuation requirement. Full safe-node terminal mass is a separately declared extension. Signed edges permit bidirectional flow and within-slot forwarding under balance equations; no extra old-population outflow rule is silently imposed."
+}

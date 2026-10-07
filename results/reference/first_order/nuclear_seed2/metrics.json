@@ -1,0 +1,35 @@
+{
+  "rows": [
+    {
+      "certificate": {
+        "objective": 16.87852415604225,
+        "dual_objective": 16.87852316884543,
+        "gap": 9.871968202901371e-07,
+        "dual_spectral_norm": 0.29999999999969984
+      },
+      "iterations": 765,
+      "method": "ista",
+      "unobserved_rmse_to_synthetic_truth": 0.19678653433455628,
+      "objective_difference_to_oracle": -4.051763369261607e-09
+    },
+    {
+      "certificate": {
+        "objective": 16.878524156042218,
+        "dual_objective": 16.8785235178769,
+        "gap": 6.381653179232671e-07,
+        "dual_spectral_norm": 0.29999999999969984
+      },
+      "iterations": 701,
+      "method": "fista",
+      "unobserved_rmse_to_synthetic_truth": 0.1967864804409055,
+      "objective_difference_to_oracle": -4.0517953436847165e-09
+    }
+  ],
+  "oracle": {
+    "solver": "CLARABEL",
+    "status": "optimal",
+    "objective": 16.878524160094013,
+    "solver_seconds": 4.317884888
+  },
+  "scope": "Independent synthetic rank3 completion task with a uniform nuclear norm; this is not the degree-regularized biased MovieLens objective. Exact SVD at every proximal step and certificate. Missing NaN values never treated as observed zeros. Penalty fixed before heldout scoring."
+}

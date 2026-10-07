@@ -1,0 +1,88 @@
+{
+  "status": "complete",
+  "config": {
+    "cases": [
+      "speed",
+      "revenue",
+      "blend",
+      "psd",
+      "regulator",
+      "evacuation",
+      "portfolio"
+    ],
+    "protocol": "Original numerical inputs preserved; declared extensions kept separate. Solver status alone is insufficient: physical balances, primal feasibility, independent duals or reference objectives are recorded.",
+    "case": "regulator",
+    "parameters": {
+      "n": 4,
+      "m": 2,
+      "A": [
+        [
+          0.95,
+          0.16,
+          0.12,
+          0.01
+        ],
+        [
+          -0.12,
+          0.98,
+          -0.11,
+          -0.03
+        ],
+        [
+          -0.16,
+          0.02,
+          0.98,
+          0.03
+        ],
+        [
+          -0.0,
+          0.02,
+          -0.04,
+          1.03
+        ]
+      ],
+      "B": [
+        [
+          0.8,
+          0.0
+        ],
+        [
+          0.1,
+          0.2
+        ],
+        [
+          0.0,
+          0.8
+        ],
+        [
+          -0.2,
+          0.1
+        ]
+      ],
+      "x_init": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "T": 100
+    },
+    "quick": false,
+    "parameter_sha256": "1c588d0f69f74a6bc30252e9724cdac54f51498696810084be5754f837e1178f"
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "cvxpy": "1.7.5",
+    "clarabel": "0.11.1",
+    "torch": "2.7.1+cu128",
+    "ortools": "9.14.6206"
+  },
+  "source_sha256": {
+    "experiments.py": "ac1ceb34cfed5e28f0cc2d909825156c1b555f93551742597a09f4bb8cc6eb67",
+    "convex_cases.py": "41166f59843590bd0b49ee47473a670e463c675d22a468ae7fe01377589015c0",
+    "barrier.py": "5c0e38c4ec7bce742a91c820f85382eef6fffdbe45b0b088da87f20e62e0671d"
+  },
+  "elapsed_seconds": 0.2780309086665511
+}

@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this software and the separately credited datasets and algorithms."
+title: "Numerical Optimization Lab: certificates, recommendation and combinatorial search"
+authors:
+  - family-names: "Bagheri-Shouraki"
+    given-names: "Navid"
+version: "1.0.0"
+date-released: "2026-10-07"
+license: MIT
+keywords:
+  - convex optimization
+  - numerical optimization
+  - matrix factorization
+  - traveling salesperson
+  - reproducible research

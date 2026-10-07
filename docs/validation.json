@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "reference_protocols": {
+    "convex": 7,
+    "first_order": 11,
+    "spectral": 1,
+    "geometry": 1,
+    "exact": 1,
+    "recommendation_fixed": 3,
+    "recommendation": 3,
+    "routing": 2,
+    "memetic": 2
+  },
+  "numeric_artifacts": 139,
+  "recommendation_candidate_evaluations": 81,
+  "selected_model_checkpoints": 30,
+  "routing_results": 84,
+  "notebooks": 14,
+  "executed_code_cells": 64,
+  "figure_pairs": 30
+}

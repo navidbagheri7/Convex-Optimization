@@ -1,0 +1,65 @@
+{
+  "rows": [
+    {
+      "length": 6651,
+      "edge_work": 9999850,
+      "objective_evaluations": 2909,
+      "children": 83,
+      "elapsed_seconds": 3.457090995274484,
+      "method": "ga_ox_reverse_2opt",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 1.8841911764705843
+    },
+    {
+      "length": 6722,
+      "edge_work": 9999901,
+      "objective_evaluations": 10740,
+      "children": 70,
+      "elapsed_seconds": 3.274637958034873,
+      "method": "ga_cx_reverse_2opt",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 2.971813725490202
+    },
+    {
+      "length": 6655,
+      "edge_work": 9999848,
+      "objective_evaluations": 2934,
+      "children": 87,
+      "elapsed_seconds": 3.512339728884399,
+      "method": "ga_ox_reverse_2opt",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 1.9454656862745168
+    },
+    {
+      "length": 6709,
+      "edge_work": 9999849,
+      "objective_evaluations": 11306,
+      "children": 67,
+      "elapsed_seconds": 3.2604509135708213,
+      "method": "ga_cx_reverse_2opt",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 2.7726715686274606
+    },
+    {
+      "length": 6654,
+      "edge_work": 9999850,
+      "objective_evaluations": 3197,
+      "children": 83,
+      "elapsed_seconds": 3.494478194974363,
+      "method": "ga_ox_reverse_2opt",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 1.930147058823528
+    },
+    {
+      "length": 6668,
+      "edge_work": 9999849,
+      "objective_evaluations": 10066,
+      "children": 71,
+      "elapsed_seconds": 3.4592783842235804,
+      "method": "ga_cx_reverse_2opt",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 2.1446078431372584
+    }
+  ],
+  "scope": "Separate memetic GA extension:24 nearest-neighbor / perturbed / two-pass2opt initial members, tournament3, OX or CX, reversal mutation0.3, two2opt passes per child, worst replacement and explicit20-child immigrant. Same10M counted distance-edge budget including local improvement. This is not the pure original GA comparison."
+}

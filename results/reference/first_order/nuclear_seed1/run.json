@@ -1,0 +1,65 @@
+{
+  "status": "complete",
+  "config": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "lasso": {
+      "observations": 300,
+      "features": 100,
+      "lambda": 0.15,
+      "steps": 10000,
+      "tolerance": 1e-07,
+      "correlation": 0.85
+    },
+    "nuclear": {
+      "rows": 40,
+      "columns": 32,
+      "rank": 3,
+      "observed_fraction": 0.5,
+      "lambda": 0.3,
+      "steps": 3000,
+      "tolerance": 1e-06
+    },
+    "poisson": {
+      "rho": [
+        0,
+        0.01,
+        0.1,
+        1,
+        10,
+        100
+      ],
+      "steps": 30000,
+      "tolerance": 1e-07
+    },
+    "quadratic": {
+      "dimension": 40,
+      "condition_numbers": [
+        10,
+        1000,
+        100000
+      ],
+      "steps": 4000
+    },
+    "seed": 1,
+    "quick": false
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "cvxpy": "1.7.5",
+    "clarabel": "0.11.1",
+    "torch": "2.7.1+cu128",
+    "ortools": "9.14.6206"
+  },
+  "source_sha256": {
+    "first_order_study.py": "3c1602f22c2fd1bdb607fcbbf5ba246ce47057a1cb7a6ae61c1c98fa7ae0f944",
+    "first_order.py": "0745e3ae5bd8a493a927dfbbe0c80db33114d2dc2bfe4dcaa31092d302373c67",
+    "convex_cases.py": "41166f59843590bd0b49ee47473a670e463c675d22a468ae7fe01377589015c0"
+  },
+  "elapsed_seconds": 4.374571400694549
+}

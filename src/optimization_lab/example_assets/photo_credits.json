@@ -1,0 +1,14 @@
+[
+  {
+    "test_index": 0,
+    "coco_id": 453040,
+    "photo_id": "8834178988",
+    "author": "jonesdlwa",
+    "author_url": "https://www.flickr.com/photos/jonesdlwa/",
+    "title": "Chelsea's cake",
+    "source_url": "https://www.flickr.com/photos/jonesdlwa/8834178988/",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "modification": "Center crop and resize to256x256; channelwise truncated SVD reconstruction, clipped to[0,1]."
+  }
+]

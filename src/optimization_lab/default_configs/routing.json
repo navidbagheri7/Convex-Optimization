@@ -1,0 +1,1 @@
+{"seeds":[0,1,2],"instances":["berlin52","ch150"],"edge_budget":10000000,"bound_iterations":2000,"ortools_seconds":5,"methods":["nn_2opt","sa_swap","sa_reverse","sa_insert","ga_ox_swap","ga_ox_reverse","ga_cx_swap","ga_cx_reverse","as","acs","acs_2opt"]}

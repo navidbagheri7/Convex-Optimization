@@ -1,0 +1,199 @@
+{
+  "status": "complete",
+  "config": {
+    "cases": [
+      "speed",
+      "revenue",
+      "blend",
+      "psd",
+      "regulator",
+      "evacuation",
+      "portfolio"
+    ],
+    "protocol": "Original numerical inputs preserved; declared extensions kept separate. Solver status alone is insufficient: physical balances, primal feasibility, independent duals or reference objectives are recorded.",
+    "case": "evacuation",
+    "parameters": {
+      "T": 30,
+      "A": [
+        [
+          -1.0,
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          -1.0,
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "Q": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.8,
+        1.0,
+        0.4
+      ],
+      "F": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "q1": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "r": [
+        1.0,
+        0.2,
+        0.2,
+        0.5,
+        0.5,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "s": [
+        1.0,
+        0.2,
+        0.2,
+        0.5,
+        0.5,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "rtild": [
+        0.1,
+        0.2,
+        0.1,
+        5.0,
+        0.4,
+        0.2,
+        0.4,
+        0.4,
+        0.2
+      ],
+      "stild": [
+        2.8,
+        5.6,
+        2.8,
+        140.0,
+        11.2,
+        5.6,
+        11.2,
+        11.2,
+        5.6
+      ]
+    },
+    "quick": false,
+    "parameter_sha256": "848f4ff1e700d31afb1d498967daf1a241b173d2bfb8448ebb9a7da46b941a46"
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "cvxpy": "1.7.5",
+    "clarabel": "0.11.1",
+    "torch": "2.7.1+cu128",
+    "ortools": "9.14.6206"
+  },
+  "source_sha256": {
+    "experiments.py": "ac1ceb34cfed5e28f0cc2d909825156c1b555f93551742597a09f4bb8cc6eb67",
+    "convex_cases.py": "41166f59843590bd0b49ee47473a670e463c675d22a468ae7fe01377589015c0",
+    "barrier.py": "5c0e38c4ec7bce742a91c820f85382eef6fffdbe45b0b088da87f20e62e0671d"
+  },
+  "elapsed_seconds": 0.16827616095542908
+}

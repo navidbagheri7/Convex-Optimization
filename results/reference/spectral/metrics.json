@@ -1,0 +1,105 @@
+{
+  "qr": [
+    {
+      "iterations": 53,
+      "converged": true,
+      "relative_eigen_residual": 1.9159060780328064e-14,
+      "orthogonality_residual": 9.51182630899473e-15,
+      "case": "repeated",
+      "maximum_eigenvalue_error": 3.019806626980426e-14
+    },
+    {
+      "iterations": 65,
+      "converged": true,
+      "relative_eigen_residual": 1.9666567619823127e-14,
+      "orthogonality_residual": 1.2349398637557622e-14,
+      "case": "indefinite",
+      "maximum_eigenvalue_error": 1.2434497875801753e-14
+    },
+    {
+      "iterations": 32,
+      "converged": true,
+      "relative_eigen_residual": 3.0706853026311876e-14,
+      "orthogonality_residual": 1.2281768380564175e-14,
+      "case": "ill_conditioned",
+      "maximum_eigenvalue_error": 8.881784197001252e-16
+    }
+  ],
+  "schur": {
+    "relative_reconstruction_residual": 0.0,
+    "scope": "Schur vectors form an orthonormal invariant basis. They are not generally individual eigenvectors for nonnormal matrices.",
+    "incorrect_individual_eigenvector_residual": 100.4987562112089
+  },
+  "compression": [
+    {
+      "rank": 4,
+      "raw_squared_error": 1768.700181548033,
+      "eckart_young_tail_sum": 1768.7001815480328,
+      "display_clipped_mse": 0.008977733453530276,
+      "display_psnr": 20.46833292828261,
+      "parameter_fraction": 0.03131103515625
+    },
+    {
+      "rank": 8,
+      "raw_squared_error": 1055.3938026553515,
+      "eckart_young_tail_sum": 1055.3938026553512,
+      "display_clipped_mse": 0.005350097971829768,
+      "display_psnr": 22.716382650375625,
+      "parameter_fraction": 0.0626220703125
+    },
+    {
+      "rank": 16,
+      "raw_squared_error": 592.006385992343,
+      "eckart_young_tail_sum": 592.006385992343,
+      "display_clipped_mse": 0.0029925477690245007,
+      "display_psnr": 25.239589083707862,
+      "parameter_fraction": 0.125244140625
+    },
+    {
+      "rank": 32,
+      "raw_squared_error": 285.7657000843345,
+      "eckart_young_tail_sum": 285.7657000843345,
+      "display_clipped_mse": 0.0014402299983150204,
+      "display_psnr": 28.415681474721936,
+      "parameter_fraction": 0.25048828125
+    },
+    {
+      "rank": 64,
+      "raw_squared_error": 99.3481097527551,
+      "eckart_young_tail_sum": 99.34810975275508,
+      "display_clipped_mse": 0.0005005919163845485,
+      "display_psnr": 33.005161677080785,
+      "parameter_fraction": 0.5009765625
+    },
+    {
+      "rank": 128,
+      "raw_squared_error": 14.188130268870644,
+      "eckart_young_tail_sum": 14.188130268870648,
+      "display_clipped_mse": 7.17598509622072e-05,
+      "display_psnr": 41.44118471947775,
+      "parameter_fraction": 1.001953125
+    }
+  ],
+  "pca": [
+    {
+      "standardized": false,
+      "explained_variance_ratio": [
+        0.9246187232017271,
+        0.05306648311706783
+      ],
+      "sklearn_projector_difference": 1.2796193335199449e-15,
+      "raw_units_reconstruction_rmse": 0.1591887996449444
+    },
+    {
+      "standardized": true,
+      "explained_variance_ratio": [
+        0.729624454132999,
+        0.22850761786701745
+      ],
+      "sklearn_projector_difference": 9.265956881012504e-16,
+      "raw_units_reconstruction_rmse": 0.18851341278773587
+    }
+  ],
+  "photo_sha256": "897f86c02f7e8c074e8aef8b0729652b43c8251d8142041a6b33b6c1e0cde7b9",
+  "scope": "Owned Householder reduction and shifted/deflated symmetric QR retain repeated eigenvalues. Nonsymmetric example uses library complex Schur and explicitly shows that Schur columns are not general eigenvectors. Channel SVD verifies the exact raw Frobenius tail identity; display is clipped to[0,1], with PSNR capped at160dB by the declared1e-16 MSE floor. SVD parameter counts are not a compressed-file codec. Iris PCA is descriptive geometry with raw and standardized units; sklearn subspace comparison avoids arbitrary sign choices."
+}

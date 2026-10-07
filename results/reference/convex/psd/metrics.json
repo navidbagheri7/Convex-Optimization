@@ -1,0 +1,12 @@
+{
+  "reference": {
+    "solver": "CLARABEL",
+    "status": "optimal",
+    "objective": 0.012208326204208107,
+    "solver_seconds": 0.000295494
+  },
+  "analytic_squared_distance": 0.01220832618939603,
+  "solver_matrix_difference": 6.706940855546498e-11,
+  "projection_min_eigenvalue": 2.736128451533518e-17,
+  "scope": "Closed convex cone of symmetric positive semidefinite matrices. Eigenvalue clipping follows symmetrization; strict positive definiteness is a different, open feasible set."
+}

@@ -1,0 +1,16 @@
+{
+  "movielens": {
+    "url": "https://files.grouplens.org/datasets/movielens/ml-100k.zip",
+    "sha256": "50d2a982c66986937beb9ffb3aa76efe955bf3d5c6b761f4e3a7cd717c6a3229"
+  },
+  "routing": {
+    "berlin52": {
+      "url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/berlin52.tsp.gz",
+      "supplied_sha256": "8496a5838133e3c3eb25a9fa8893b1ac302593fc8dc325350643a0cabd8abadc"
+    },
+    "ch150": {
+      "url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/ch150.tsp.gz",
+      "supplied_sha256": "05abd424f773269b13477d367e534797aac080fb536a28074a72a9c0ba8064f5"
+    }
+  }
+}

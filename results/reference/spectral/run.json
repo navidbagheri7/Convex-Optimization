@@ -1,0 +1,33 @@
+{
+  "status": "complete",
+  "config": {
+    "matrix_dimension": 30,
+    "seed": 42,
+    "tolerance": 1e-12,
+    "max_steps": 10000,
+    "svd_ranks": [
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "pca_components": 2,
+    "quick": false
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "cvxpy": "1.7.5",
+    "clarabel": "0.11.1",
+    "torch": "2.7.1+cu128",
+    "ortools": "9.14.6206"
+  },
+  "source_sha256": {
+    "spectral_study.py": "aa7cfc546d00300c1b7313580dd15124833c7efc7e1d3b9f3911f1168e8be0fe",
+    "spectral.py": "fb2f6296c7c506acb570cccb3c1bc8996fe2581b0fc1260cba984c7b4429e8b8"
+  },
+  "elapsed_seconds": 0.580955270677805
+}

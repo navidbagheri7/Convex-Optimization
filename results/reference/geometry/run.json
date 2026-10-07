@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "config": {
+    "scope": "four supplied transformed convex forms"
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "cvxpy": "1.7.5",
+    "clarabel": "0.11.1",
+    "torch": "2.7.1+cu128",
+    "ortools": "9.14.6206"
+  },
+  "source_sha256": {
+    "geometry.py": "86c2daff56a551e5499f202a52bec2a1d716962fb87452dbde95b6e969cd62b7"
+  },
+  "elapsed_seconds": 0.06095219310373068
+}

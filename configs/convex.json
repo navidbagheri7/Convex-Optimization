@@ -1,0 +1,1 @@
+{"cases":["speed","revenue","blend","psd","regulator","evacuation","portfolio"],"protocol":"Original numerical inputs preserved; declared extensions kept separate. Solver status alone is insufficient: physical balances, primal feasibility, independent duals or reference objectives are recorded."}

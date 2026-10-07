@@ -1,0 +1,16 @@
+{
+  "dynamic_programming": {
+    "length": 2248,
+    "states": 11264
+  },
+  "milp": {
+    "length": 2248,
+    "solver_status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "mip_dual_bound": 2248.0,
+    "mip_gap": 0.0,
+    "proven_optimal": true,
+    "objective_rounding_residual": 0.0
+  },
+  "integer_one_tree_bound": 2248
+}

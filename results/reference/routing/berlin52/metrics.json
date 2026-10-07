@@ -1,0 +1,337 @@
+{
+  "rows": [
+    {
+      "length": 8116,
+      "edge_work": 17134,
+      "objective_evaluations": 10,
+      "elapsed_seconds": 0.006815244443714619,
+      "method": "nn_2opt",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 7.610713338636965
+    },
+    {
+      "length": 8261,
+      "edge_work": 9999990,
+      "objective_evaluations": 192282,
+      "elapsed_seconds": 8.493623115122318,
+      "method": "sa_swap",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 9.533280297003444
+    },
+    {
+      "length": 7797,
+      "edge_work": 9999990,
+      "objective_evaluations": 192282,
+      "elapsed_seconds": 8.669027947820723,
+      "method": "sa_reverse",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 3.381066030230717
+    },
+    {
+      "length": 7855,
+      "edge_work": 9999990,
+      "objective_evaluations": 192282,
+      "elapsed_seconds": 13.006701880134642,
+      "method": "sa_insert",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 4.1500928135773
+    },
+    {
+      "length": 8929,
+      "edge_work": 9999964,
+      "objective_evaluations": 192307,
+      "elapsed_seconds": 21.39510936010629,
+      "method": "ga_ox_swap",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 18.390347387960748
+    },
+    {
+      "length": 7768,
+      "edge_work": 9999964,
+      "objective_evaluations": 192307,
+      "elapsed_seconds": 21.138298206962645,
+      "method": "ga_ox_reverse",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 2.9965526385574037
+    },
+    {
+      "length": 10453,
+      "edge_work": 9999964,
+      "objective_evaluations": 192307,
+      "elapsed_seconds": 23.635932417586446,
+      "method": "ga_cx_swap",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 38.59718907451604
+    },
+    {
+      "length": 8491,
+      "edge_work": 9999964,
+      "objective_evaluations": 192307,
+      "elapsed_seconds": 23.67767518851906,
+      "method": "ga_cx_reverse",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 12.582869265446828
+    },
+    {
+      "length": 7663,
+      "edge_work": 9998768,
+      "objective_evaluations": 7256,
+      "elapsed_seconds": 9.856754809617996,
+      "method": "as",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 1.6043489790506404
+    },
+    {
+      "length": 7542,
+      "edge_work": 9998768,
+      "objective_evaluations": 7256,
+      "elapsed_seconds": 5.617647539824247,
+      "method": "acs",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 0.0
+    },
+    {
+      "length": 7542,
+      "edge_work": 9999946,
+      "objective_evaluations": 9414,
+      "elapsed_seconds": 4.0955520598217845,
+      "method": "acs_2opt",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 0.0
+    },
+    {
+      "length": 7542,
+      "elapsed_seconds": 5.000713584013283,
+      "callback_evaluations": 4075576,
+      "solver_status": 1,
+      "method": "ortools_gls",
+      "seed": 0,
+      "gap_to_published_optimum_percent": 0.0
+    },
+    {
+      "length": 8120,
+      "edge_work": 17654,
+      "objective_evaluations": 20,
+      "elapsed_seconds": 0.007232549600303173,
+      "method": "nn_2opt",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 7.663749668522946
+    },
+    {
+      "length": 8425,
+      "edge_work": 9999990,
+      "objective_evaluations": 192282,
+      "elapsed_seconds": 8.510253106243908,
+      "method": "sa_swap",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 11.707769822328284
+    },
+    {
+      "length": 7542,
+      "edge_work": 9999990,
+      "objective_evaluations": 192282,
+      "elapsed_seconds": 8.704364448785782,
+      "method": "sa_reverse",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 0.0
+    },
+    {
+      "length": 8552,
+      "edge_work": 9999990,
+      "objective_evaluations": 192282,
+      "elapsed_seconds": 13.063488183543086,
+      "method": "sa_insert",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 13.391673296207895
+    },
+    {
+      "length": 9517,
+      "edge_work": 9999964,
+      "objective_evaluations": 192307,
+      "elapsed_seconds": 20.895297184586525,
+      "method": "ga_ox_swap",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 26.186687881198623
+    },
+    {
+      "length": 8416,
+      "edge_work": 9999964,
+      "objective_evaluations": 192307,
+      "elapsed_seconds": 21.049895918928087,
+      "method": "ga_ox_reverse",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 11.58843808008485
+    },
+    {
+      "length": 10201,
+      "edge_work": 9999964,
+      "objective_evaluations": 192307,
+      "elapsed_seconds": 23.763732695020735,
+      "method": "ga_cx_swap",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 35.2559002916998
+    },
+    {
+      "length": 8172,
+      "edge_work": 9999964,
+      "objective_evaluations": 192307,
+      "elapsed_seconds": 24.150611515156925,
+      "method": "ga_cx_reverse",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 8.35322195704058
+    },
+    {
+      "length": 7657,
+      "edge_work": 9998768,
+      "objective_evaluations": 7256,
+      "elapsed_seconds": 9.712732372805476,
+      "method": "as",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 1.524794484221692
+    },
+    {
+      "length": 7547,
+      "edge_work": 9998768,
+      "objective_evaluations": 7256,
+      "elapsed_seconds": 5.585441262461245,
+      "method": "acs",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 0.06629541235747549
+    },
+    {
+      "length": 7542,
+      "edge_work": 9999470,
+      "objective_evaluations": 8935,
+      "elapsed_seconds": 3.926431064493954,
+      "method": "acs_2opt",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 0.0
+    },
+    {
+      "length": 7781,
+      "elapsed_seconds": 5.001941695809364,
+      "callback_evaluations": 4163312,
+      "solver_status": 1,
+      "method": "ortools_gls",
+      "seed": 1,
+      "gap_to_published_optimum_percent": 3.168920710686818
+    },
+    {
+      "length": 7849,
+      "edge_work": 17550,
+      "objective_evaluations": 18,
+      "elapsed_seconds": 0.006749036721885204,
+      "method": "nn_2opt",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 4.070538318748351
+    },
+    {
+      "length": 8495,
+      "edge_work": 9999990,
+      "objective_evaluations": 192282,
+      "elapsed_seconds": 8.559978771023452,
+      "method": "sa_swap",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 12.635905595332808
+    },
+    {
+      "length": 7717,
+      "edge_work": 9999990,
+      "objective_evaluations": 192282,
+      "elapsed_seconds": 8.744097533635795,
+      "method": "sa_reverse",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 2.3203394325112647
+    },
+    {
+      "length": 7958,
+      "edge_work": 9999990,
+      "objective_evaluations": 192282,
+      "elapsed_seconds": 13.041212023235857,
+      "method": "sa_insert",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 5.515778308141073
+    },
+    {
+      "length": 9948,
+      "edge_work": 9999964,
+      "objective_evaluations": 192307,
+      "elapsed_seconds": 20.95895884744823,
+      "method": "ga_ox_swap",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 31.9013524264121
+    },
+    {
+      "length": 7981,
+      "edge_work": 9999964,
+      "objective_evaluations": 192307,
+      "elapsed_seconds": 21.05610100366175,
+      "method": "ga_ox_reverse",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 5.820737204985416
+    },
+    {
+      "length": 9765,
+      "edge_work": 9999964,
+      "objective_evaluations": 192307,
+      "elapsed_seconds": 23.767365624196827,
+      "method": "ga_cx_swap",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 29.474940334128874
+    },
+    {
+      "length": 8115,
+      "edge_work": 9999964,
+      "objective_evaluations": 192307,
+      "elapsed_seconds": 23.791694520041347,
+      "method": "ga_cx_reverse",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 7.59745425616547
+    },
+    {
+      "length": 7663,
+      "edge_work": 9998768,
+      "objective_evaluations": 7256,
+      "elapsed_seconds": 9.813582931645215,
+      "method": "as",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 1.6043489790506404
+    },
+    {
+      "length": 7748,
+      "edge_work": 9998768,
+      "objective_evaluations": 7256,
+      "elapsed_seconds": 5.601538276299834,
+      "method": "acs",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 2.731370989127546
+    },
+    {
+      "length": 7542,
+      "edge_work": 9999946,
+      "objective_evaluations": 9589,
+      "elapsed_seconds": 3.918310012668371,
+      "method": "acs_2opt",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 0.0
+    },
+    {
+      "length": 7823,
+      "elapsed_seconds": 5.000982177443802,
+      "callback_evaluations": 4109045,
+      "solver_status": 1,
+      "method": "ortools_gls",
+      "seed": 2,
+      "gap_to_published_optimum_percent": 3.725802174489523
+    }
+  ],
+  "one_tree_certificate": {
+    "bound": 7542,
+    "is_hamiltonian": true,
+    "iterations": 1014
+  },
+  "bound_incumbent": 8116,
+  "published_optimum": 7542,
+  "optimum_reference": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/TSP-BEST.html",
+  "protocol": "EUC_2D nearest-integer distances and cyclic return. Owned methods cap counted distance-edge work, including initialization, construction weights, objective evaluations and 2opt checks. Crossover, sampling, probability arithmetic and dense matrix updates are not counted; elapsed time is also reported. NN+2opt stops at local optimum. AS deposits all-ant trails; ACS includes local construction updates and best-tour global updates; ACS+2opt consumes the same budget. OR-Tools uses a separate5s wall-clock limit and callback counts, not a matched edge budget. Seed changes its depot, not a claimed solver random seed; timing can vary. Exact integer1-tree bound uses rounded integer potentials, with float proposals only. No official optimal tour loaded."
+}

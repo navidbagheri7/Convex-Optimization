@@ -1,0 +1,277 @@
+{
+  "status": "passed",
+  "selected_models": 30,
+  "rows": [
+    {
+      "family": "recommendation_fixed",
+      "seed": 0,
+      "method": "global_mean",
+      "checkpoint_sha256": "e61c559baa77f062df05072adaa1a04f536be13034d3628246bbd199abe4fe57",
+      "test_rmse": 1.1536733994073018,
+      "gradient_infinity_norm": 0.012224062499999879,
+      "gradient_l2_norm": 0.02945061296145699
+    },
+    {
+      "family": "recommendation_fixed",
+      "seed": 0,
+      "method": "bias_only",
+      "checkpoint_sha256": "86cea397fee97edac85c68eb91a942710eda1bc6615268aa59a2f8afdb7fe32c",
+      "test_rmse": 0.9581608408217425,
+      "gradient_infinity_norm": 1.0977330155981236e-17,
+      "gradient_l2_norm": 3.960916851159767e-17
+    },
+    {
+      "family": "recommendation_fixed",
+      "seed": 0,
+      "method": "als",
+      "checkpoint_sha256": "1e42a040e6bb8a63739672f07ff60ea5211b8167576c8b3fabd62d7d3d4b44b7",
+      "test_rmse": 1.1537294754048601,
+      "gradient_infinity_norm": 0.012228833455846388,
+      "gradient_l2_norm": 0.029504624229401345
+    },
+    {
+      "family": "recommendation_fixed",
+      "seed": 0,
+      "method": "sgd",
+      "checkpoint_sha256": "ea0e10b8999ea8db4aa47935fbbe4715cd2719c11d1d61c38aaf3e5a8e8126f2",
+      "test_rmse": 0.9485445385639769,
+      "gradient_infinity_norm": 0.0010175953425002352,
+      "gradient_l2_norm": 0.006000228608232155
+    },
+    {
+      "family": "recommendation_fixed",
+      "seed": 0,
+      "method": "adam",
+      "checkpoint_sha256": "7a0ac69c93e6d9d6f4ecddd0c6635840846fcdf76c7e9c596de1452c70b707d7",
+      "test_rmse": 0.9605473758244097,
+      "gradient_infinity_norm": 0.0006267733297641336,
+      "gradient_l2_norm": 0.006140179422414607
+    },
+    {
+      "family": "recommendation_fixed",
+      "seed": 1,
+      "method": "global_mean",
+      "checkpoint_sha256": "e61c559baa77f062df05072adaa1a04f536be13034d3628246bbd199abe4fe57",
+      "test_rmse": 1.1536733994073018,
+      "gradient_infinity_norm": 0.012224062499999879,
+      "gradient_l2_norm": 0.02945061296145699
+    },
+    {
+      "family": "recommendation_fixed",
+      "seed": 1,
+      "method": "bias_only",
+      "checkpoint_sha256": "86cea397fee97edac85c68eb91a942710eda1bc6615268aa59a2f8afdb7fe32c",
+      "test_rmse": 0.9581608408217425,
+      "gradient_infinity_norm": 1.0977330155981236e-17,
+      "gradient_l2_norm": 3.960916851159767e-17
+    },
+    {
+      "family": "recommendation_fixed",
+      "seed": 1,
+      "method": "als",
+      "checkpoint_sha256": "1e0d7419fd366354aba76999b2daafededf09bcb7dc620443f6eba1277bfcbfa",
+      "test_rmse": 1.153734846412539,
+      "gradient_infinity_norm": 0.012228320391007545,
+      "gradient_l2_norm": 0.029507405822923955
+    },
+    {
+      "family": "recommendation_fixed",
+      "seed": 1,
+      "method": "sgd",
+      "checkpoint_sha256": "90f1076caf00417e671bcd647f35c8d3f2948d523280d682f03194093790f84b",
+      "test_rmse": 0.9495683938009493,
+      "gradient_infinity_norm": 0.0007361784828917317,
+      "gradient_l2_norm": 0.005917255876329664
+    },
+    {
+      "family": "recommendation_fixed",
+      "seed": 1,
+      "method": "adam",
+      "checkpoint_sha256": "2e15a022187d62810e04c1ef4ec81a2586271acab988cfb1cf44e0c00e7e7d90",
+      "test_rmse": 0.9633611377729052,
+      "gradient_infinity_norm": 0.000524613119430712,
+      "gradient_l2_norm": 0.006149595062981652
+    },
+    {
+      "family": "recommendation_fixed",
+      "seed": 2,
+      "method": "global_mean",
+      "checkpoint_sha256": "e61c559baa77f062df05072adaa1a04f536be13034d3628246bbd199abe4fe57",
+      "test_rmse": 1.1536733994073018,
+      "gradient_infinity_norm": 0.012224062499999879,
+      "gradient_l2_norm": 0.02945061296145699
+    },
+    {
+      "family": "recommendation_fixed",
+      "seed": 2,
+      "method": "bias_only",
+      "checkpoint_sha256": "86cea397fee97edac85c68eb91a942710eda1bc6615268aa59a2f8afdb7fe32c",
+      "test_rmse": 0.9581608408217425,
+      "gradient_infinity_norm": 1.0977330155981236e-17,
+      "gradient_l2_norm": 3.960916851159767e-17
+    },
+    {
+      "family": "recommendation_fixed",
+      "seed": 2,
+      "method": "als",
+      "checkpoint_sha256": "b6e19105b716bae912ed25f08f78a1e8088600a42c752591578720b4e31df3f9",
+      "test_rmse": 1.153726627188218,
+      "gradient_infinity_norm": 0.012218933052128074,
+      "gradient_l2_norm": 0.029500551485286193
+    },
+    {
+      "family": "recommendation_fixed",
+      "seed": 2,
+      "method": "sgd",
+      "checkpoint_sha256": "095411e0a0b86bd25798f3884192eb079d4b8508252424bb2fddcb9b6bce71cf",
+      "test_rmse": 0.9492205880768586,
+      "gradient_infinity_norm": 0.0010685276740409796,
+      "gradient_l2_norm": 0.00595430797876429
+    },
+    {
+      "family": "recommendation_fixed",
+      "seed": 2,
+      "method": "adam",
+      "checkpoint_sha256": "f2f4a14a80b7d0032ae5771bb4b581cbaa83204b9f70cfdbc6026ec5971a478d",
+      "test_rmse": 0.9653552980108238,
+      "gradient_infinity_norm": 0.0006827890371512233,
+      "gradient_l2_norm": 0.006274407926260102
+    },
+    {
+      "family": "recommendation",
+      "seed": 0,
+      "method": "global_mean",
+      "checkpoint_sha256": "e61c559baa77f062df05072adaa1a04f536be13034d3628246bbd199abe4fe57",
+      "test_rmse": 1.1536733994073018,
+      "gradient_infinity_norm": 0.012224062499999879,
+      "gradient_l2_norm": 0.02945061296145699
+    },
+    {
+      "family": "recommendation",
+      "seed": 0,
+      "method": "bias_only",
+      "checkpoint_sha256": "86cea397fee97edac85c68eb91a942710eda1bc6615268aa59a2f8afdb7fe32c",
+      "test_rmse": 0.9581608408217425,
+      "gradient_infinity_norm": 1.0977330155981236e-17,
+      "gradient_l2_norm": 3.960916851159767e-17
+    },
+    {
+      "family": "recommendation",
+      "seed": 0,
+      "method": "als",
+      "checkpoint_sha256": "e4e186f7eedefb952fcec3a051c8839461d3d497fae16a12a8574a3368467781",
+      "test_rmse": 0.9450664324378759,
+      "gradient_infinity_norm": 4.6838317007803e-05,
+      "gradient_l2_norm": 0.0005299464281573201
+    },
+    {
+      "family": "recommendation",
+      "seed": 0,
+      "method": "sgd",
+      "checkpoint_sha256": "04f0330ec28f06317ab615c41fa476390e62e99a2b618a309839b09e908be24e",
+      "test_rmse": 0.9338444955989305,
+      "gradient_infinity_norm": 0.0008191135154156999,
+      "gradient_l2_norm": 0.0035732844079173214
+    },
+    {
+      "family": "recommendation",
+      "seed": 0,
+      "method": "adam",
+      "checkpoint_sha256": "309ff30cd9a7eff5cbd17bbec2f391bc6bbd65d3d62eda1da802fbfdae5bff83",
+      "test_rmse": 0.9368641326842334,
+      "gradient_infinity_norm": 0.0003575036843746922,
+      "gradient_l2_norm": 0.0024669571128952236
+    },
+    {
+      "family": "recommendation",
+      "seed": 1,
+      "method": "global_mean",
+      "checkpoint_sha256": "e61c559baa77f062df05072adaa1a04f536be13034d3628246bbd199abe4fe57",
+      "test_rmse": 1.1536733994073018,
+      "gradient_infinity_norm": 0.012224062499999879,
+      "gradient_l2_norm": 0.02945061296145699
+    },
+    {
+      "family": "recommendation",
+      "seed": 1,
+      "method": "bias_only",
+      "checkpoint_sha256": "86cea397fee97edac85c68eb91a942710eda1bc6615268aa59a2f8afdb7fe32c",
+      "test_rmse": 0.9581608408217425,
+      "gradient_infinity_norm": 1.0977330155981236e-17,
+      "gradient_l2_norm": 3.960916851159767e-17
+    },
+    {
+      "family": "recommendation",
+      "seed": 1,
+      "method": "als",
+      "checkpoint_sha256": "58e01d3c0bebe8dbbec1e26434d7d3d01d75f552caa744f7f310c5fa580cf1c2",
+      "test_rmse": 0.9447885577768191,
+      "gradient_infinity_norm": 4.1721482111047635e-06,
+      "gradient_l2_norm": 5.992953551657593e-05
+    },
+    {
+      "family": "recommendation",
+      "seed": 1,
+      "method": "sgd",
+      "checkpoint_sha256": "33449ff7e036b6695ad50a77ce0b82f4c0f68b0b03d640a2f667eab82d22b5fe",
+      "test_rmse": 0.9332063012927589,
+      "gradient_infinity_norm": 0.0008903912272815778,
+      "gradient_l2_norm": 0.0034124482996450954
+    },
+    {
+      "family": "recommendation",
+      "seed": 1,
+      "method": "adam",
+      "checkpoint_sha256": "bbb335e5e7bfc9279bdcf9224dd3989cdb286fb185fe2f8a359e923043908207",
+      "test_rmse": 0.9371551271489992,
+      "gradient_infinity_norm": 0.00030522091876027373,
+      "gradient_l2_norm": 0.0021300859703880137
+    },
+    {
+      "family": "recommendation",
+      "seed": 2,
+      "method": "global_mean",
+      "checkpoint_sha256": "e61c559baa77f062df05072adaa1a04f536be13034d3628246bbd199abe4fe57",
+      "test_rmse": 1.1536733994073018,
+      "gradient_infinity_norm": 0.012224062499999879,
+      "gradient_l2_norm": 0.02945061296145699
+    },
+    {
+      "family": "recommendation",
+      "seed": 2,
+      "method": "bias_only",
+      "checkpoint_sha256": "86cea397fee97edac85c68eb91a942710eda1bc6615268aa59a2f8afdb7fe32c",
+      "test_rmse": 0.9581608408217425,
+      "gradient_infinity_norm": 1.0977330155981236e-17,
+      "gradient_l2_norm": 3.960916851159767e-17
+    },
+    {
+      "family": "recommendation",
+      "seed": 2,
+      "method": "als",
+      "checkpoint_sha256": "e78ca8becbe6951948c602c5f84bd5a4273a5f72d7fcd96a994f842f9baa3ff1",
+      "test_rmse": 0.9436122676483372,
+      "gradient_infinity_norm": 5.1609567215321756e-05,
+      "gradient_l2_norm": 0.00043972280086581727
+    },
+    {
+      "family": "recommendation",
+      "seed": 2,
+      "method": "sgd",
+      "checkpoint_sha256": "bfaaa972060821a686cfa47b9bf636082b69ff456e1f6f6e855a430f516320ae",
+      "test_rmse": 0.9340365964396075,
+      "gradient_infinity_norm": 0.0008623506861003918,
+      "gradient_l2_norm": 0.0035086209911218756
+    },
+    {
+      "family": "recommendation",
+      "seed": 2,
+      "method": "adam",
+      "checkpoint_sha256": "21b8b5798253c0c5b3ffd5c75a05f983fb873735b4eff21b73111b250c33bf91",
+      "test_rmse": 0.937969974483477,
+      "gradient_infinity_norm": 0.00039550033143740033,
+      "gradient_l2_norm": 0.002389814049834363
+    }
+  ],
+  "scope": "Fresh NumPy float64 predictions and independently recomputed per-user error aggregates. Gradient diagnostics use the declared normalized objective; validation-selected models are not claimed stationary or globally optimal. Deterministic baselines constrain factor rank0; the global-mean baseline is not an optimized bias model."
+}

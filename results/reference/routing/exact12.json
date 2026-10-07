@@ -1,0 +1,8 @@
+{
+  "exact": {
+    "length": 2248,
+    "states": 11264
+  },
+  "lower_bound": 2248,
+  "scope": "First12 nodes of the last processed instance; Held-Karp gives an exact optimum."
+}

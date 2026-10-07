@@ -1,0 +1,14 @@
+.local/
+.venv/
+legacy/originals/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+results/smoke/
+results/**/checkpoints/
+*.log
