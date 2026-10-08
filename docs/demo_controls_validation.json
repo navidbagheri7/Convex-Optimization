@@ -1,0 +1,7485 @@
+{
+  "status": "passed",
+  "page": "docs/explorer.html",
+  "html_sha256": "4e1f98c3cf9fe302bf66a61546f2b42b2f883b41a651304fbf17295b0f0a981c",
+  "checker_sha256": "eaded5da8eb568e4c76046cd4dda075b801870a80ddf6d4d7e035e51f241fbca",
+  "selector_tuples": [
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "nn_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "nn_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "nn_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "sa_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "sa_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "sa_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "sa_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "sa_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "sa_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "sa_insert"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "sa_insert"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "sa_insert"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "as"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "as"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "as"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "acs"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "acs"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "acs"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "acs_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "acs_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "acs_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ortools_gls"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ortools_gls"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ortools_gls"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_reverse_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_reverse_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_reverse_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_reverse_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_reverse_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "berlin52"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_reverse_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "nn_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "nn_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "nn_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "sa_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "sa_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "sa_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "sa_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "sa_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "sa_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "sa_insert"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "sa_insert"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "sa_insert"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_swap"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_reverse"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "as"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "as"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "as"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "acs"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "acs"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "acs"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "acs_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "acs_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "acs_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ortools_gls"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ortools_gls"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ortools_gls"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_reverse_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_reverse_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_ox_reverse_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_reverse_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_reverse_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Routing",
+      "fields": [
+        {
+          "field": "Instance",
+          "value": "ch150"
+        },
+        {
+          "field": "Method",
+          "value": "ga_cx_reverse_2opt"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "photograph"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "accelerated_pdhg"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "dual_fista"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "0"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "1"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.02"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.06"
+        }
+      ]
+    },
+    {
+      "concept": "Primal\u2013dual images",
+      "fields": [
+        {
+          "field": "Image",
+          "value": "piecewise"
+        },
+        {
+          "field": "Solver",
+          "value": "admm"
+        },
+        {
+          "field": "Noise seed",
+          "value": "2"
+        },
+        {
+          "field": "TV penalty",
+          "value": "0.15"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "lasso"
+        },
+        {
+          "field": "Problem seed",
+          "value": "0"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "lasso"
+        },
+        {
+          "field": "Problem seed",
+          "value": "0"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "1000"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "lasso"
+        },
+        {
+          "field": "Problem seed",
+          "value": "0"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "100000"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "lasso"
+        },
+        {
+          "field": "Problem seed",
+          "value": "1"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "lasso"
+        },
+        {
+          "field": "Problem seed",
+          "value": "1"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "1000"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "lasso"
+        },
+        {
+          "field": "Problem seed",
+          "value": "1"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "100000"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "lasso"
+        },
+        {
+          "field": "Problem seed",
+          "value": "2"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "lasso"
+        },
+        {
+          "field": "Problem seed",
+          "value": "2"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "1000"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "lasso"
+        },
+        {
+          "field": "Problem seed",
+          "value": "2"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "100000"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "nuclear"
+        },
+        {
+          "field": "Problem seed",
+          "value": "0"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "nuclear"
+        },
+        {
+          "field": "Problem seed",
+          "value": "0"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "1000"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "nuclear"
+        },
+        {
+          "field": "Problem seed",
+          "value": "0"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "100000"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "nuclear"
+        },
+        {
+          "field": "Problem seed",
+          "value": "1"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "nuclear"
+        },
+        {
+          "field": "Problem seed",
+          "value": "1"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "1000"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "nuclear"
+        },
+        {
+          "field": "Problem seed",
+          "value": "1"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "100000"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "nuclear"
+        },
+        {
+          "field": "Problem seed",
+          "value": "2"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "nuclear"
+        },
+        {
+          "field": "Problem seed",
+          "value": "2"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "1000"
+        }
+      ]
+    },
+    {
+      "concept": "Composite optimization",
+      "fields": [
+        {
+          "field": "Composite problem",
+          "value": "nuclear"
+        },
+        {
+          "field": "Problem seed",
+          "value": "2"
+        },
+        {
+          "field": "Quadratic condition number",
+          "value": "100000"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "global_mean"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "global_mean"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "global_mean"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "bias_only"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "bias_only"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "bias_only"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "als"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "als"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "als"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "als"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "als"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "als"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "als"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "als"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "als"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "global_mean"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "global_mean"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "global_mean"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "bias_only"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "bias_only"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "bias_only"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "als"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "als"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "als"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "sgd"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Recommendation",
+      "fields": [
+        {
+          "field": "Protocol",
+          "value": "recommendation_fixed"
+        },
+        {
+          "field": "Method",
+          "value": "adam"
+        },
+        {
+          "field": "Fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Validation candidate",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "0"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "1"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "random"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "concept": "Adaptive search",
+      "fields": [
+        {
+          "field": "Search/fitting seed",
+          "value": "2"
+        },
+        {
+          "field": "Search strategy",
+          "value": "tpe"
+        },
+        {
+          "field": "Candidate trial",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "concept": "Spectral geometry",
+      "fields": [
+        {
+          "field": "SVD rank",
+          "value": "4"
+        },
+        {
+          "field": "PCA units",
+          "value": "raw_units"
+        }
+      ]
+    },
+    {
+      "concept": "Spectral geometry",
+      "fields": [
+        {
+          "field": "SVD rank",
+          "value": "4"
+        },
+        {
+          "field": "PCA units",
+          "value": "standardized"
+        }
+      ]
+    },
+    {
+      "concept": "Spectral geometry",
+      "fields": [
+        {
+          "field": "SVD rank",
+          "value": "8"
+        },
+        {
+          "field": "PCA units",
+          "value": "raw_units"
+        }
+      ]
+    },
+    {
+      "concept": "Spectral geometry",
+      "fields": [
+        {
+          "field": "SVD rank",
+          "value": "8"
+        },
+        {
+          "field": "PCA units",
+          "value": "standardized"
+        }
+      ]
+    },
+    {
+      "concept": "Spectral geometry",
+      "fields": [
+        {
+          "field": "SVD rank",
+          "value": "16"
+        },
+        {
+          "field": "PCA units",
+          "value": "raw_units"
+        }
+      ]
+    },
+    {
+      "concept": "Spectral geometry",
+      "fields": [
+        {
+          "field": "SVD rank",
+          "value": "16"
+        },
+        {
+          "field": "PCA units",
+          "value": "standardized"
+        }
+      ]
+    },
+    {
+      "concept": "Spectral geometry",
+      "fields": [
+        {
+          "field": "SVD rank",
+          "value": "32"
+        },
+        {
+          "field": "PCA units",
+          "value": "raw_units"
+        }
+      ]
+    },
+    {
+      "concept": "Spectral geometry",
+      "fields": [
+        {
+          "field": "SVD rank",
+          "value": "32"
+        },
+        {
+          "field": "PCA units",
+          "value": "standardized"
+        }
+      ]
+    },
+    {
+      "concept": "Spectral geometry",
+      "fields": [
+        {
+          "field": "SVD rank",
+          "value": "64"
+        },
+        {
+          "field": "PCA units",
+          "value": "raw_units"
+        }
+      ]
+    },
+    {
+      "concept": "Spectral geometry",
+      "fields": [
+        {
+          "field": "SVD rank",
+          "value": "64"
+        },
+        {
+          "field": "PCA units",
+          "value": "standardized"
+        }
+      ]
+    },
+    {
+      "concept": "Spectral geometry",
+      "fields": [
+        {
+          "field": "SVD rank",
+          "value": "128"
+        },
+        {
+          "field": "PCA units",
+          "value": "raw_units"
+        }
+      ]
+    },
+    {
+      "concept": "Spectral geometry",
+      "fields": [
+        {
+          "field": "SVD rank",
+          "value": "128"
+        },
+        {
+          "field": "PCA units",
+          "value": "standardized"
+        }
+      ]
+    },
+    {
+      "concept": "Convex applications",
+      "fields": [
+        {
+          "field": "Application",
+          "value": "speed"
+        }
+      ]
+    },
+    {
+      "concept": "Convex applications",
+      "fields": [
+        {
+          "field": "Application",
+          "value": "revenue"
+        }
+      ]
+    },
+    {
+      "concept": "Convex applications",
+      "fields": [
+        {
+          "field": "Application",
+          "value": "blend"
+        }
+      ]
+    },
+    {
+      "concept": "Convex applications",
+      "fields": [
+        {
+          "field": "Application",
+          "value": "psd"
+        }
+      ]
+    },
+    {
+      "concept": "Convex applications",
+      "fields": [
+        {
+          "field": "Application",
+          "value": "regulator"
+        }
+      ]
+    },
+    {
+      "concept": "Convex applications",
+      "fields": [
+        {
+          "field": "Application",
+          "value": "evacuation"
+        }
+      ]
+    },
+    {
+      "concept": "Convex applications",
+      "fields": [
+        {
+          "field": "Application",
+          "value": "portfolio"
+        }
+      ]
+    },
+    {
+      "concept": "Feasibility geometry",
+      "fields": [
+        {
+          "field": "Domain",
+          "value": "simplex"
+        }
+      ]
+    },
+    {
+      "concept": "Feasibility geometry",
+      "fields": [
+        {
+          "field": "Domain",
+          "value": "nonnegative_order"
+        }
+      ]
+    },
+    {
+      "concept": "Feasibility geometry",
+      "fields": [
+        {
+          "field": "Domain",
+          "value": "perspective_quadratic"
+        }
+      ]
+    },
+    {
+      "concept": "Feasibility geometry",
+      "fields": [
+        {
+          "field": "Domain",
+          "value": "concave_sqrt_hypograph"
+        }
+      ]
+    }
+  ],
+  "slider_position_checks": 921,
+  "playback_checks": 0,
+  "verified_image_files": [
+    "assets/explorer/svd_original.png",
+    "assets/explorer/svd_rank128.png",
+    "assets/explorer/svd_rank16.png",
+    "assets/explorer/svd_rank32.png",
+    "assets/explorer/svd_rank4.png",
+    "assets/explorer/svd_rank64.png",
+    "assets/explorer/svd_rank8.png",
+    "assets/explorer/tv_photograph_0_observed.png",
+    "assets/explorer/tv_photograph_1_observed.png",
+    "assets/explorer/tv_photograph_2_observed.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_accelerated_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_accelerated_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_accelerated_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_accelerated_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_accelerated_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_accelerated_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_accelerated_pdhg_50.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_accelerated_pdhg_60.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_admm_0.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_admm_1.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_admm_10.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_admm_2.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_admm_20.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_admm_5.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_dual_fista_0.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_dual_fista_1.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_dual_fista_10.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_dual_fista_2.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_dual_fista_20.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_dual_fista_5.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.02_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_accelerated_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_accelerated_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_accelerated_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_accelerated_pdhg_100.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_accelerated_pdhg_120.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_accelerated_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_accelerated_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_accelerated_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_accelerated_pdhg_50.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_admm_0.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_admm_1.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_admm_10.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_admm_2.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_admm_20.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_admm_40.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_admm_5.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_dual_fista_0.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_dual_fista_1.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_dual_fista_10.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_dual_fista_2.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_dual_fista_20.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_dual_fista_5.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_dual_fista_50.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_dual_fista_80.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_pdhg_50.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.06_pdhg_80.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_accelerated_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_accelerated_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_accelerated_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_accelerated_pdhg_100.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_accelerated_pdhg_180.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_accelerated_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_accelerated_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_accelerated_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_accelerated_pdhg_50.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_admm_0.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_admm_1.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_admm_10.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_admm_100.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_admm_2.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_admm_20.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_admm_200.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_admm_280.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_admm_5.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_admm_50.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_dual_fista_0.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_dual_fista_1.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_dual_fista_10.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_dual_fista_100.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_dual_fista_2.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_dual_fista_20.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_dual_fista_200.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_dual_fista_260.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_dual_fista_5.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_dual_fista_50.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_pdhg_100.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_pdhg_200.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_pdhg_50.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_pdhg_500.png",
+    "assets/explorer/tv_photograph_seed0_lambda0.15_pdhg_760.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_accelerated_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_accelerated_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_accelerated_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_accelerated_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_accelerated_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_accelerated_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_accelerated_pdhg_50.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_accelerated_pdhg_60.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_admm_0.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_admm_1.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_admm_10.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_admm_2.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_admm_20.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_admm_5.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_dual_fista_0.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_dual_fista_1.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_dual_fista_10.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_dual_fista_2.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_dual_fista_20.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_dual_fista_5.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.02_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_accelerated_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_accelerated_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_accelerated_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_accelerated_pdhg_100.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_accelerated_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_accelerated_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_accelerated_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_accelerated_pdhg_50.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_admm_0.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_admm_1.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_admm_10.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_admm_2.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_admm_20.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_admm_40.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_admm_5.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_dual_fista_0.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_dual_fista_1.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_dual_fista_10.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_dual_fista_2.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_dual_fista_20.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_dual_fista_5.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_dual_fista_50.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_dual_fista_80.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_pdhg_100.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.06_pdhg_50.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_accelerated_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_accelerated_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_accelerated_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_accelerated_pdhg_100.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_accelerated_pdhg_180.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_accelerated_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_accelerated_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_accelerated_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_accelerated_pdhg_50.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_admm_0.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_admm_1.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_admm_10.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_admm_100.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_admm_2.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_admm_20.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_admm_200.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_admm_280.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_admm_5.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_admm_50.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_dual_fista_0.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_dual_fista_1.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_dual_fista_10.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_dual_fista_100.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_dual_fista_2.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_dual_fista_20.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_dual_fista_200.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_dual_fista_240.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_dual_fista_5.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_dual_fista_50.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_pdhg_100.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_pdhg_200.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_pdhg_50.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_pdhg_500.png",
+    "assets/explorer/tv_photograph_seed1_lambda0.15_pdhg_720.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_accelerated_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_accelerated_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_accelerated_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_accelerated_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_accelerated_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_accelerated_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_accelerated_pdhg_50.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_accelerated_pdhg_60.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_admm_0.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_admm_1.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_admm_10.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_admm_2.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_admm_20.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_admm_5.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_dual_fista_0.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_dual_fista_1.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_dual_fista_10.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_dual_fista_2.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_dual_fista_20.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_dual_fista_5.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.02_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_accelerated_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_accelerated_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_accelerated_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_accelerated_pdhg_100.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_accelerated_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_accelerated_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_accelerated_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_accelerated_pdhg_50.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_admm_0.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_admm_1.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_admm_10.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_admm_2.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_admm_20.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_admm_40.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_admm_5.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_dual_fista_0.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_dual_fista_1.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_dual_fista_10.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_dual_fista_2.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_dual_fista_20.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_dual_fista_5.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_dual_fista_50.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_dual_fista_80.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_pdhg_50.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.06_pdhg_80.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_accelerated_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_accelerated_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_accelerated_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_accelerated_pdhg_100.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_accelerated_pdhg_160.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_accelerated_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_accelerated_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_accelerated_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_accelerated_pdhg_50.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_admm_0.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_admm_1.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_admm_10.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_admm_100.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_admm_2.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_admm_20.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_admm_200.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_admm_300.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_admm_5.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_admm_50.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_dual_fista_0.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_dual_fista_1.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_dual_fista_10.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_dual_fista_100.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_dual_fista_2.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_dual_fista_20.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_dual_fista_200.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_dual_fista_240.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_dual_fista_5.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_dual_fista_50.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_pdhg_0.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_pdhg_1.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_pdhg_10.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_pdhg_100.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_pdhg_2.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_pdhg_20.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_pdhg_200.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_pdhg_5.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_pdhg_50.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_pdhg_500.png",
+    "assets/explorer/tv_photograph_seed2_lambda0.15_pdhg_780.png",
+    "assets/explorer/tv_photograph_truth.png",
+    "assets/explorer/tv_piecewise_0_observed.png",
+    "assets/explorer/tv_piecewise_1_observed.png",
+    "assets/explorer/tv_piecewise_2_observed.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_accelerated_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_accelerated_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_accelerated_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_accelerated_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_accelerated_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_accelerated_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_accelerated_pdhg_50.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_accelerated_pdhg_60.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_admm_0.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_admm_1.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_admm_10.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_admm_2.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_admm_20.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_admm_5.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_dual_fista_0.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_dual_fista_1.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_dual_fista_10.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_dual_fista_2.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_dual_fista_20.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_dual_fista_5.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.02_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_accelerated_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_accelerated_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_accelerated_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_accelerated_pdhg_100.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_accelerated_pdhg_120.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_accelerated_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_accelerated_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_accelerated_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_accelerated_pdhg_50.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_admm_0.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_admm_1.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_admm_10.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_admm_2.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_admm_20.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_admm_5.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_admm_50.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_admm_60.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_dual_fista_0.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_dual_fista_1.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_dual_fista_10.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_dual_fista_2.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_dual_fista_20.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_dual_fista_5.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_dual_fista_50.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_dual_fista_80.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_pdhg_100.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_pdhg_120.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.06_pdhg_50.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_accelerated_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_accelerated_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_accelerated_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_accelerated_pdhg_100.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_accelerated_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_accelerated_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_accelerated_pdhg_200.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_accelerated_pdhg_280.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_accelerated_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_accelerated_pdhg_50.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_admm_0.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_admm_1.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_admm_10.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_admm_100.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_admm_2.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_admm_20.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_admm_200.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_admm_5.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_admm_50.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_admm_500.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_admm_840.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_dual_fista_0.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_dual_fista_1.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_dual_fista_10.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_dual_fista_100.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_dual_fista_2.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_dual_fista_20.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_dual_fista_200.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_dual_fista_360.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_dual_fista_5.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_dual_fista_50.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_pdhg_100.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_pdhg_1000.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_pdhg_200.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_pdhg_2000.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_pdhg_2320.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_pdhg_50.png",
+    "assets/explorer/tv_piecewise_seed0_lambda0.15_pdhg_500.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_accelerated_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_accelerated_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_accelerated_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_accelerated_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_accelerated_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_accelerated_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_accelerated_pdhg_50.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_accelerated_pdhg_60.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_admm_0.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_admm_1.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_admm_10.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_admm_2.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_admm_20.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_admm_5.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_dual_fista_0.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_dual_fista_1.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_dual_fista_10.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_dual_fista_2.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_dual_fista_20.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_dual_fista_5.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.02_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_accelerated_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_accelerated_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_accelerated_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_accelerated_pdhg_100.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_accelerated_pdhg_120.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_accelerated_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_accelerated_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_accelerated_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_accelerated_pdhg_50.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_admm_0.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_admm_1.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_admm_10.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_admm_2.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_admm_20.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_admm_5.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_admm_50.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_admm_60.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_dual_fista_0.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_dual_fista_1.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_dual_fista_10.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_dual_fista_2.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_dual_fista_20.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_dual_fista_5.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_dual_fista_50.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_dual_fista_80.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_pdhg_100.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_pdhg_140.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.06_pdhg_50.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_accelerated_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_accelerated_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_accelerated_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_accelerated_pdhg_100.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_accelerated_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_accelerated_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_accelerated_pdhg_200.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_accelerated_pdhg_320.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_accelerated_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_accelerated_pdhg_50.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_admm_0.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_admm_1.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_admm_10.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_admm_100.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_admm_2.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_admm_20.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_admm_200.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_admm_5.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_admm_50.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_admm_500.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_admm_960.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_dual_fista_0.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_dual_fista_1.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_dual_fista_10.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_dual_fista_100.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_dual_fista_2.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_dual_fista_20.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_dual_fista_200.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_dual_fista_400.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_dual_fista_5.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_dual_fista_50.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_pdhg_100.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_pdhg_1000.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_pdhg_200.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_pdhg_2000.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_pdhg_2660.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_pdhg_50.png",
+    "assets/explorer/tv_piecewise_seed1_lambda0.15_pdhg_500.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_accelerated_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_accelerated_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_accelerated_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_accelerated_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_accelerated_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_accelerated_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_accelerated_pdhg_50.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_accelerated_pdhg_60.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_admm_0.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_admm_1.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_admm_10.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_admm_2.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_admm_20.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_admm_5.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_dual_fista_0.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_dual_fista_1.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_dual_fista_10.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_dual_fista_2.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_dual_fista_20.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_dual_fista_5.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.02_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_accelerated_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_accelerated_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_accelerated_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_accelerated_pdhg_100.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_accelerated_pdhg_120.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_accelerated_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_accelerated_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_accelerated_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_accelerated_pdhg_50.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_admm_0.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_admm_1.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_admm_10.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_admm_2.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_admm_20.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_admm_5.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_admm_50.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_admm_60.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_dual_fista_0.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_dual_fista_1.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_dual_fista_10.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_dual_fista_2.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_dual_fista_20.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_dual_fista_5.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_dual_fista_50.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_dual_fista_80.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_pdhg_100.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_pdhg_140.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.06_pdhg_50.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_accelerated_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_accelerated_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_accelerated_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_accelerated_pdhg_100.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_accelerated_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_accelerated_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_accelerated_pdhg_200.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_accelerated_pdhg_300.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_accelerated_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_accelerated_pdhg_50.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_admm_0.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_admm_1.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_admm_10.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_admm_100.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_admm_1000.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_admm_1060.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_admm_2.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_admm_20.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_admm_200.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_admm_5.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_admm_50.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_admm_500.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_dual_fista_0.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_dual_fista_1.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_dual_fista_10.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_dual_fista_100.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_dual_fista_2.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_dual_fista_20.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_dual_fista_200.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_dual_fista_440.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_dual_fista_5.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_dual_fista_50.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_pdhg_0.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_pdhg_1.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_pdhg_10.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_pdhg_100.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_pdhg_1000.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_pdhg_2.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_pdhg_20.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_pdhg_200.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_pdhg_2000.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_pdhg_2960.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_pdhg_5.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_pdhg_50.png",
+    "assets/explorer/tv_piecewise_seed2_lambda0.15_pdhg_500.png",
+    "assets/explorer/tv_piecewise_truth.png"
+  ],
+  "verified_local_links": [
+    "README.md",
+    "docs/adaptive_search.md",
+    "docs/implementation_audit.md",
+    "docs/primal_dual.md",
+    "docs/results.md",
+    "results/reference/convex/blend/metrics.json",
+    "results/reference/convex/evacuation/metrics.json",
+    "results/reference/convex/portfolio/metrics.json",
+    "results/reference/convex/psd/metrics.json",
+    "results/reference/convex/regulator/metrics.json",
+    "results/reference/convex/revenue/metrics.json",
+    "results/reference/convex/speed/metrics.json",
+    "results/reference/geometry/metrics.json"
+  ],
+  "javascript_errors": [],
+  "mobile_width": 390,
+  "transport": "Local HTTP, matching the user-facing web server",
+  "scope": "All enabled finite selector combinations. Continuous/long sliders use endpoints and middle; discrete sliders with at most thirteen positions use every position, with joint slider combinations. Visible tables, byte-exact served images, local links, playback and mobile layouts are verified. Numerical/asset-to-model oracles are recorded by the lab-specific validators, not inferred from successful rendering."
+}

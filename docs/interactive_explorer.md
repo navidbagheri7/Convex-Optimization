@@ -65,3 +65,6 @@ and [the manifest](explorer_manifest.json).
 
 The wheel carries reusable methods, default configs and the licensed example photo.
 Use the repository or source archive for reports, notebooks, templates and the demo.
+
+See the [user interaction audit](demo_review.md) for the HTTP selector, slider,
+asset and numerical verification commands and their precise scope.

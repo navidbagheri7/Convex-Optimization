@@ -20,6 +20,9 @@ review](docs/implementation_audit.md) records the reviewed contracts and limitat
 ![Routing comparison](assets/figures/routing_comparison.png)
 ![Recommendation comparison](assets/figures/recommendation_comparison.png)
 
+The [user interaction audit](docs/demo_review.md) documents exhaustive enabled
+dropdown checks, representative joint slider settings and source-bound asset checks.
+
 ## What is implemented
 
 | Study | Owned implementation | Independent reference / evidence |
