@@ -1,6 +1,6 @@
-# Numerical Optimization Lab
+# Convex Optimization
 
-[Interactive demo](https://navidbagheri7.github.io/certified-optimization-lab/) · [GitHub repository](https://github.com/navidbagheri7/certified-optimization-lab) · [CI checks](https://github.com/navidbagheri7/certified-optimization-lab/actions)
+[Interactive demo](https://navidbagheri7.github.io/Convex-Optimization/) · [GitHub repository](https://github.com/navidbagheri7/Convex-Optimization) · [CI checks](https://github.com/navidbagheri7/Convex-Optimization/actions)
 
 From convex certificates to recommendation and combinatorial search: an English, executable research portfolio by **Navid Bagheri-Shouraki**.
 

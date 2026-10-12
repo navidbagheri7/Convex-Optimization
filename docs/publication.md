@@ -1,6 +1,6 @@
 # GitHub publication and interactive demo
 
-Repository: [navidbagheri7/certified-optimization-lab](https://github.com/navidbagheri7/certified-optimization-lab). Interactive explorer: [https://navidbagheri7.github.io/certified-optimization-lab/](https://navidbagheri7.github.io/certified-optimization-lab/).
+Repository: [navidbagheri7/certified-optimization-lab](https://github.com/navidbagheri7/Convex-Optimization). Interactive explorer: [https://navidbagheri7.github.io/Convex-Optimization/](https://navidbagheri7.github.io/Convex-Optimization/).
 
 The repository contains authored English code, executed notebooks and measured evidence. The numerical comparisons and documented limitations remain unchanged by publication. Private course originals, local environments, cached datasets and large training checkpoints remain outside Git history.
 

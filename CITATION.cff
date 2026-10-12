@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "Please cite this software and the separately credited datasets and algorithms."
-title: "Numerical Optimization Lab: certificates, recommendation and combinatorial search"
+title: "Convex Optimization"
 authors:
   - family-names: "Bagheri-Shouraki"
     given-names: "Navid"
@@ -13,5 +13,5 @@ keywords:
   - matrix factorization
   - traveling salesperson
   - reproducible research
-repository-code: "https://github.com/navidbagheri7/certified-optimization-lab"
-url: "https://navidbagheri7.github.io/certified-optimization-lab/"
+repository-code: "https://github.com/navidbagheri7/Convex-Optimization"
+url: "https://navidbagheri7.github.io/Convex-Optimization/"

@@ -20,10 +20,10 @@ dev = ["pytest>=7", "ruff>=0.6", "build>=1"]
 [project.scripts]
 optimization-lab = "optimization_lab.console:main"
 [project.urls]
-Repository = "https://github.com/navidbagheri7/certified-optimization-lab"
-Documentation = "https://github.com/navidbagheri7/certified-optimization-lab#readme"
-Demo = "https://navidbagheri7.github.io/certified-optimization-lab/"
-Issues = "https://github.com/navidbagheri7/certified-optimization-lab/issues"
+Repository = "https://github.com/navidbagheri7/Convex-Optimization"
+Documentation = "https://github.com/navidbagheri7/Convex-Optimization#readme"
+Demo = "https://navidbagheri7.github.io/Convex-Optimization/"
+Issues = "https://github.com/navidbagheri7/Convex-Optimization/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
