@@ -1,5 +1,7 @@
 # Numerical Optimization Lab
 
+[Interactive demo](https://navidbagheri7.github.io/certified-optimization-lab/) · [GitHub repository](https://github.com/navidbagheri7/certified-optimization-lab) · [CI checks](https://github.com/navidbagheri7/certified-optimization-lab/actions)
+
 From convex certificates to recommendation and combinatorial search: an English, executable research portfolio by **Navid Bagheri-Shouraki**.
 
 This repository reconstructs the main optimization course projects and extends them into reproducible comparisons. It connects each numerical result to its objective, assumptions, data roles and evidence. A solver's success flag is checked against independent calculations; a good training objective is checked against heldout performance; a heuristic route is checked against a genuine lower bound or a published optimum.

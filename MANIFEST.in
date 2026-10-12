@@ -16,3 +16,5 @@ exclude docs/release_artifacts.json
 prune release
 
 include .nojekyll
+
+include index.html
